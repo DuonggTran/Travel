@@ -69,5 +69,16 @@ namespace GUI.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_account_avatar_user_abstract_circle_background_flat_color_icon_png_image_1650938 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-account-avatar-user-abstract-circle-background-flat-color-icon-png-image_" +
+                        "1650938", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

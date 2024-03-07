@@ -11,3 +11,7 @@ D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.exe
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.pdb
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCTrangChu.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangBai.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietKhachHang.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietPhong.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangKy.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangNhap.resources
