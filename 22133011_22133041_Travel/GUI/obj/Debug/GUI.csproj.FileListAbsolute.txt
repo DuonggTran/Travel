@@ -15,3 +15,6 @@ D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTi
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietPhong.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangKy.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangNhap.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DanhGia.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCDanhGia.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.VietDanhGia.resources

@@ -28,62 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ucTrangChu1 = new GUI.UCTrangChu();
-            this.ucThongTinPhong1 = new GUI.UCThongTinPhong();
-            this.ucThongTinPhong2 = new GUI.UCThongTinPhong();
-            this.ucThongTinPhong3 = new GUI.UCThongTinPhong();
-            this.ucThongTinPhong4 = new GUI.UCThongTinPhong();
-            this.ucThongTinPhong5 = new GUI.UCThongTinPhong();
             this.ucThongTinPhong6 = new GUI.UCThongTinPhong();
+            this.ucThongTinPhong5 = new GUI.UCThongTinPhong();
+            this.ucThongTinPhong4 = new GUI.UCThongTinPhong();
+            this.ucThongTinPhong3 = new GUI.UCThongTinPhong();
+            this.ucThongTinPhong2 = new GUI.UCThongTinPhong();
+            this.ucThongTinPhong1 = new GUI.UCThongTinPhong();
+            this.ucTrangChu1 = new GUI.UCTrangChu();
             this.SuspendLayout();
-            // 
-            // ucTrangChu1
-            // 
-            this.ucTrangChu1.BackColor = System.Drawing.Color.White;
-            this.ucTrangChu1.Location = new System.Drawing.Point(0, 0);
-            this.ucTrangChu1.Name = "ucTrangChu1";
-            this.ucTrangChu1.Size = new System.Drawing.Size(1432, 696);
-            this.ucTrangChu1.TabIndex = 0;
-            // 
-            // ucThongTinPhong1
-            // 
-            this.ucThongTinPhong1.BackColor = System.Drawing.Color.White;
-            this.ucThongTinPhong1.Location = new System.Drawing.Point(0, 168);
-            this.ucThongTinPhong1.Name = "ucThongTinPhong1";
-            this.ucThongTinPhong1.Size = new System.Drawing.Size(473, 200);
-            this.ucThongTinPhong1.TabIndex = 1;
-            // 
-            // ucThongTinPhong2
-            // 
-            this.ucThongTinPhong2.BackColor = System.Drawing.Color.White;
-            this.ucThongTinPhong2.Location = new System.Drawing.Point(479, 168);
-            this.ucThongTinPhong2.Name = "ucThongTinPhong2";
-            this.ucThongTinPhong2.Size = new System.Drawing.Size(473, 200);
-            this.ucThongTinPhong2.TabIndex = 2;
-            // 
-            // ucThongTinPhong3
-            // 
-            this.ucThongTinPhong3.BackColor = System.Drawing.Color.White;
-            this.ucThongTinPhong3.Location = new System.Drawing.Point(959, 168);
-            this.ucThongTinPhong3.Name = "ucThongTinPhong3";
-            this.ucThongTinPhong3.Size = new System.Drawing.Size(473, 200);
-            this.ucThongTinPhong3.TabIndex = 3;
-            // 
-            // ucThongTinPhong4
-            // 
-            this.ucThongTinPhong4.BackColor = System.Drawing.Color.White;
-            this.ucThongTinPhong4.Location = new System.Drawing.Point(0, 447);
-            this.ucThongTinPhong4.Name = "ucThongTinPhong4";
-            this.ucThongTinPhong4.Size = new System.Drawing.Size(473, 200);
-            this.ucThongTinPhong4.TabIndex = 4;
-            // 
-            // ucThongTinPhong5
-            // 
-            this.ucThongTinPhong5.BackColor = System.Drawing.Color.White;
-            this.ucThongTinPhong5.Location = new System.Drawing.Point(479, 447);
-            this.ucThongTinPhong5.Name = "ucThongTinPhong5";
-            this.ucThongTinPhong5.Size = new System.Drawing.Size(473, 200);
-            this.ucThongTinPhong5.TabIndex = 5;
             // 
             // ucThongTinPhong6
             // 
@@ -93,12 +45,60 @@
             this.ucThongTinPhong6.Size = new System.Drawing.Size(473, 200);
             this.ucThongTinPhong6.TabIndex = 6;
             // 
+            // ucThongTinPhong5
+            // 
+            this.ucThongTinPhong5.BackColor = System.Drawing.Color.White;
+            this.ucThongTinPhong5.Location = new System.Drawing.Point(480, 447);
+            this.ucThongTinPhong5.Name = "ucThongTinPhong5";
+            this.ucThongTinPhong5.Size = new System.Drawing.Size(473, 200);
+            this.ucThongTinPhong5.TabIndex = 5;
+            // 
+            // ucThongTinPhong4
+            // 
+            this.ucThongTinPhong4.BackColor = System.Drawing.Color.White;
+            this.ucThongTinPhong4.Location = new System.Drawing.Point(0, 447);
+            this.ucThongTinPhong4.Name = "ucThongTinPhong4";
+            this.ucThongTinPhong4.Size = new System.Drawing.Size(473, 200);
+            this.ucThongTinPhong4.TabIndex = 4;
+            // 
+            // ucThongTinPhong3
+            // 
+            this.ucThongTinPhong3.BackColor = System.Drawing.Color.White;
+            this.ucThongTinPhong3.Location = new System.Drawing.Point(959, 168);
+            this.ucThongTinPhong3.Name = "ucThongTinPhong3";
+            this.ucThongTinPhong3.Size = new System.Drawing.Size(473, 200);
+            this.ucThongTinPhong3.TabIndex = 3;
+            // 
+            // ucThongTinPhong2
+            // 
+            this.ucThongTinPhong2.BackColor = System.Drawing.Color.White;
+            this.ucThongTinPhong2.Location = new System.Drawing.Point(479, 168);
+            this.ucThongTinPhong2.Name = "ucThongTinPhong2";
+            this.ucThongTinPhong2.Size = new System.Drawing.Size(473, 200);
+            this.ucThongTinPhong2.TabIndex = 2;
+            // 
+            // ucThongTinPhong1
+            // 
+            this.ucThongTinPhong1.BackColor = System.Drawing.Color.White;
+            this.ucThongTinPhong1.Location = new System.Drawing.Point(0, 168);
+            this.ucThongTinPhong1.Name = "ucThongTinPhong1";
+            this.ucThongTinPhong1.Size = new System.Drawing.Size(473, 200);
+            this.ucThongTinPhong1.TabIndex = 1;
+            // 
+            // ucTrangChu1
+            // 
+            this.ucTrangChu1.BackColor = System.Drawing.Color.White;
+            this.ucTrangChu1.Location = new System.Drawing.Point(0, 0);
+            this.ucTrangChu1.Name = "ucTrangChu1";
+            this.ucTrangChu1.Size = new System.Drawing.Size(1432, 683);
+            this.ucTrangChu1.TabIndex = 0;
+            // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1430, 695);
+            this.ClientSize = new System.Drawing.Size(1430, 679);
             this.Controls.Add(this.ucThongTinPhong6);
             this.Controls.Add(this.ucThongTinPhong5);
             this.Controls.Add(this.ucThongTinPhong4);

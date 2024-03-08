@@ -117,47 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="179acdab52dbfe85a7ca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\179acdab52dbfe85a7ca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="0d6b64334a40e61ebf51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0d6b64334a40e61ebf51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7f87f2be6dcec19098df" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7f87f2be6dcec19098df.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="6b699b2cdb5f77012e4e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6b699b2cdb5f77012e4e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="6ed844e8-4fe8-4f50-8662-fc13d2fe65cb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6ed844e8-4fe8-4f50-8662-fc13d2fe65cb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="42c98447061cab42f20d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\42c98447061cab42f20d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1ecbe5c8fbbb57e50eaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1ecbe5c8fbbb57e50eaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a7e12305a3750f2b5664" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a7e12305a3750f2b5664.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1a535e60c1106d4e3401" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1a535e60c1106d4e3401.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pngtree-account-avatar-user-abstract-circle-background-flat-color-icon-png-image_1650938" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-account-avatar-user-abstract-circle-background-flat-color-icon-png-image_1650938.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aeca6c832cf080aed9e1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aeca6c832cf080aed9e1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="8120a168e11b4d45140a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8120a168e11b4d45140a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a9a4924c123cbe62e72d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a9a4924c123cbe62e72d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="b25706f0a58309dd5092" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b25706f0a58309dd5092.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

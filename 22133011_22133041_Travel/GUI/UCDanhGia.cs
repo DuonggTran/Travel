@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class ChiTietPhong : Form
+    public partial class UCDanhGia : UserControl
     {
-        public ChiTietPhong()
+        public UCDanhGia()
         {
             InitializeComponent();
         }
-
-        
     }
 }

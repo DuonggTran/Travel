@@ -76,6 +76,12 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhGia.Designer.cs">
+      <DependentUpon>DanhGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCDanhGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDanhGia.Designer.cs">
+      <DependentUpon>UCDanhGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCThongTinPhong.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +107,12 @@
     </Compile>
     <Compile Include="UCTrangChu.Designer.cs">
       <DependentUpon>UCTrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VietDanhGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VietDanhGia.Designer.cs">
+      <DependentUpon>VietDanhGia.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ChiTietKhachHang.resx">
       <DependentUpon>ChiTietKhachHang.cs</DependentUpon>
@@ -111,6 +129,9 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanhGia.resx">
+      <DependentUpon>DanhGia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,11 +145,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCDanhGia.resx">
+      <DependentUpon>UCDanhGia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCThongTinPhong.resx">
       <DependentUpon>UCThongTinPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCTrangChu.resx">
       <DependentUpon>UCTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VietDanhGia.resx">
+      <DependentUpon>VietDanhGia.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -148,6 +175,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngtree-account-avatar-user-abstract-circle-background-flat-color-icon-png-image_1650938.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1a535e60c1106d4e3401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7f87f2be6dcec19098df.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\179acdab52dbfe85a7ca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a9a4924c123cbe62e72d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a7e12305a3750f2b5664.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8120a168e11b4d45140a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6ed844e8-4fe8-4f50-8662-fc13d2fe65cb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0d6b64334a40e61ebf51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aeca6c832cf080aed9e1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6b699b2cdb5f77012e4e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1ecbe5c8fbbb57e50eaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b25706f0a58309dd5092.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

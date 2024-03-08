@@ -106,9 +106,9 @@
             "Nhìn ra biển",
             "Ban công",
             "Hồ bơi riêng"});
-            this.comboBox5.Location = new System.Drawing.Point(869, 82);
+            this.comboBox5.Location = new System.Drawing.Point(861, 82);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(188, 33);
+            this.comboBox5.Size = new System.Drawing.Size(196, 33);
             this.comboBox5.TabIndex = 6;
             this.comboBox5.Text = "Tiện Nghi Phòng";
             // 
@@ -119,11 +119,11 @@
             this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
-            "Phòng thường",
-            "Phòng vip"});
-            this.comboBox4.Location = new System.Drawing.Point(664, 82);
+            "Giường đơn",
+            "Giường đôi"});
+            this.comboBox4.Location = new System.Drawing.Point(658, 82);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(152, 33);
+            this.comboBox4.Size = new System.Drawing.Size(162, 33);
             this.comboBox4.TabIndex = 5;
             this.comboBox4.Text = "Loại Phòng";
             // 
@@ -138,7 +138,7 @@
             "> 1.000.000 VND"});
             this.comboBox3.Location = new System.Drawing.Point(417, 82);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(190, 33);
+            this.comboBox3.Size = new System.Drawing.Size(198, 33);
             this.comboBox3.TabIndex = 4;
             this.comboBox3.Text = "Giá Tiền";
             // 
@@ -155,7 +155,7 @@
             "Khác"});
             this.comboBox2.Location = new System.Drawing.Point(245, 82);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 33);
+            this.comboBox2.Size = new System.Drawing.Size(128, 33);
             this.comboBox2.TabIndex = 3;
             this.comboBox2.Text = "Địa Điểm";
             // 
@@ -202,7 +202,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);
             this.Name = "UCTrangChu";
-            this.Size = new System.Drawing.Size(1432, 136);
+            this.Size = new System.Drawing.Size(1432, 738);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
