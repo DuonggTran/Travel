@@ -16,7 +16,69 @@ namespace GUI
         {
             InitializeComponent();
         }
+        private void ucTrangChu1_Load(object sender, EventArgs e)
+        {
 
-       
+        }
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            DangNhap f = new DangNhap();
+            f.ShowDialog();
+        }
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            if(cbDiaDiem.Text=="Huế")
+            {
+                flpTrangChu.Controls.Clear();
+                UCThongTinPhong uc1 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc1);
+                UCThongTinPhong uc2 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc2);
+                UCThongTinPhong uc3 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc3);
+                UCThongTinPhong uc4 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc4);
+                UCThongTinPhong uc5 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc5);
+                UCThongTinPhong uc6 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc6);
+                UCThongTinPhong uc7 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc7);
+                UCThongTinPhong uc8 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc8);
+                UCThongTinPhong uc9 = new UCThongTinPhong();
+                flpTrangChu.Controls.Add(uc9);
+            }    
+        }
+        private void btnDangKy_Click(object sender, EventArgs e)
+        {
+            DangKy f = new DangKy();
+            f.ShowDialog();
+        }
+        private void btnChoThue_Click(object sender, EventArgs e)
+        {
+            DangBai f = new DangBai();
+            f.ShowDialog();
+        }
+        private void TrangChu_Load(object sender, EventArgs e)
+        {
+            flpTrangChu.Controls.Clear();
+            UCThongTinPhong uc1 = new UCThongTinPhong();
+            flpTrangChu.Controls.Add(uc1);
+            UCThongTinPhong uc2 = new UCThongTinPhong();
+            flpTrangChu.Controls.Add(uc2);
+            UCThongTinPhong uc3 = new UCThongTinPhong();
+            flpTrangChu.Controls.Add(uc3);
+            UCThongTinPhong uc4 = new UCThongTinPhong();
+            flpTrangChu.Controls.Add(uc4);
+            UCThongTinPhong uc5 = new UCThongTinPhong();
+            flpTrangChu.Controls.Add(uc5);
+            UCThongTinPhong uc6 = new UCThongTinPhong();
+            flpTrangChu.Controls.Add(uc6);
+        }
+        private void flpTrangChu_Paint(object sender, PaintEventArgs e)
+        {         
+            
+        }
     }
 }

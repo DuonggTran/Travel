@@ -9,7 +9,6 @@ D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.cspro
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.exe
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.pdb
-D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCTrangChu.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangBai.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietKhachHang.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietPhong.resources
@@ -18,3 +17,5 @@ D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangN
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DanhGia.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCDanhGia.resources
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.VietDanhGia.resources
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\bin\Debug\Guna.UI2.dll
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.csproj.CopyComplete

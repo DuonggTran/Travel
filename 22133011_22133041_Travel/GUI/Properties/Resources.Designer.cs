@@ -93,6 +93,16 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1c2246e84f2ded5db9d752acd29d357c {
+            get {
+                object obj = ResourceManager.GetObject("1c2246e84f2ded5db9d752acd29d357c", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1ecbe5c8fbbb57e50eaa {
             get {
                 object obj = ResourceManager.GetObject("1ecbe5c8fbbb57e50eaa", resourceCulture);
@@ -186,6 +196,26 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap b25706f0a58309dd5092 {
             get {
                 object obj = ResourceManager.GetObject("b25706f0a58309dd5092", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gradient_White_To_Blue_Background {
+            get {
+                object obj = ResourceManager.GetObject("Gradient White To Blue Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gradient_White_To_Blue_Background1 {
+            get {
+                object obj = ResourceManager.GetObject("Gradient White To Blue Background1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

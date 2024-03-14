@@ -17,6 +17,19 @@ namespace GUI
             InitializeComponent();
         }
 
-        
+        private void btnThue_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ChiTietKhachHang f = new ChiTietKhachHang();    
+            f.ShowDialog();          
+            f = null;
+            this.Close();
+        }
+
+        private void linklbDanhGia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DanhGia f = new DanhGia();
+            f.ShowDialog();
+        }
     }
 }

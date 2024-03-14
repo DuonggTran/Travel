@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -102,12 +108,6 @@
     <Compile Include="UCThongTinPhong.Designer.cs">
       <DependentUpon>UCThongTinPhong.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCTrangChu.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCTrangChu.Designer.cs">
-      <DependentUpon>UCTrangChu.cs</DependentUpon>
-    </Compile>
     <Compile Include="VietDanhGia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,12 +151,10 @@
     <EmbeddedResource Include="UCThongTinPhong.resx">
       <DependentUpon>UCThongTinPhong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCTrangChu.resx">
-      <DependentUpon>UCTrangChu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VietDanhGia.resx">
       <DependentUpon>VietDanhGia.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -211,6 +209,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\b25706f0a58309dd5092.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gradient White To Blue Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gradient White To Blue Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1c2246e84f2ded5db9d752acd29d357c.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

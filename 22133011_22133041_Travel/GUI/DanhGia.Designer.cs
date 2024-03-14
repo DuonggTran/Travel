@@ -33,9 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.ucDanhGia3 = new GUI.UCDanhGia();
-            this.ucDanhGia2 = new GUI.UCDanhGia();
-            this.ucDanhGia1 = new GUI.UCDanhGia();
+            this.flpDanhGia = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -77,44 +75,26 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(803, 55);
+            this.panel1.Size = new System.Drawing.Size(800, 55);
             this.panel1.TabIndex = 4;
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.ucDanhGia3);
-            this.panel2.Controls.Add(this.ucDanhGia2);
-            this.panel2.Controls.Add(this.ucDanhGia1);
+            this.panel2.Controls.Add(this.flpDanhGia);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(0, 54);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(803, 612);
             this.panel2.TabIndex = 5;
             // 
-            // ucDanhGia3
+            // flpDanhGia
             // 
-            this.ucDanhGia3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucDanhGia3.Location = new System.Drawing.Point(-1, 425);
-            this.ucDanhGia3.Name = "ucDanhGia3";
-            this.ucDanhGia3.Size = new System.Drawing.Size(800, 186);
-            this.ucDanhGia3.TabIndex = 6;
-            // 
-            // ucDanhGia2
-            // 
-            this.ucDanhGia2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucDanhGia2.Location = new System.Drawing.Point(-1, 232);
-            this.ucDanhGia2.Name = "ucDanhGia2";
-            this.ucDanhGia2.Size = new System.Drawing.Size(800, 193);
-            this.ucDanhGia2.TabIndex = 5;
-            // 
-            // ucDanhGia1
-            // 
-            this.ucDanhGia1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucDanhGia1.Location = new System.Drawing.Point(-1, 40);
-            this.ucDanhGia1.Name = "ucDanhGia1";
-            this.ucDanhGia1.Size = new System.Drawing.Size(800, 193);
-            this.ucDanhGia1.TabIndex = 4;
+            this.flpDanhGia.Location = new System.Drawing.Point(-1, 40);
+            this.flpDanhGia.Name = "flpDanhGia";
+            this.flpDanhGia.Size = new System.Drawing.Size(799, 571);
+            this.flpDanhGia.TabIndex = 4;
+            this.flpDanhGia.Paint += new System.Windows.Forms.PaintEventHandler(this.flpDanhGia_Paint);
             // 
             // DanhGia
             // 
@@ -127,6 +107,7 @@
             this.Name = "DanhGia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DanhGia";
+            this.Load += new System.EventHandler(this.DanhGia_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -142,8 +123,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private UCDanhGia ucDanhGia3;
-        private UCDanhGia ucDanhGia2;
-        private UCDanhGia ucDanhGia1;
+        private System.Windows.Forms.FlowLayoutPanel flpDanhGia;
     }
 }

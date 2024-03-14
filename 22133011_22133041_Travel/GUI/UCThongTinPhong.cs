@@ -16,5 +16,11 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btnChiTiet_Click(object sender, EventArgs e)
+        {
+            ChiTietPhong f = new ChiTietPhong();
+            f.Show();
+        }
     }
 }
