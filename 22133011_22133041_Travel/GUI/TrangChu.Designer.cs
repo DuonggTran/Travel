@@ -184,7 +184,7 @@
             "Nhìn ra biển",
             "Ban công",
             "Hồ bơi riêng"});
-            this.comboBox5.Location = new System.Drawing.Point(863, 84);
+            this.comboBox5.Location = new System.Drawing.Point(852, 84);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(222, 33);
             this.comboBox5.TabIndex = 14;
@@ -199,7 +199,7 @@
             this.comboBox4.Items.AddRange(new object[] {
             "Giường đơn",
             "Giường đôi"});
-            this.comboBox4.Location = new System.Drawing.Point(576, 84);
+            this.comboBox4.Location = new System.Drawing.Point(570, 84);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(205, 33);
             this.comboBox4.TabIndex = 13;
@@ -214,7 +214,7 @@
             this.comboBox3.Items.AddRange(new object[] {
             "< 1.000.000 VND",
             "> 1.000.000 VND"});
-            this.comboBox3.Location = new System.Drawing.Point(273, 84);
+            this.comboBox3.Location = new System.Drawing.Point(262, 84);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(217, 33);
             this.comboBox3.TabIndex = 12;
