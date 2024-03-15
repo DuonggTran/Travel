@@ -16,10 +16,6 @@ namespace GUI
         {
             InitializeComponent();
         }
-        private void flpDanhGia_Paint(object sender, PaintEventArgs e)
-        {           
-           
-        }
         private void DanhGia_Load(object sender, EventArgs e)
         {
             UCDanhGia uc1 = new UCDanhGia();
@@ -28,6 +24,14 @@ namespace GUI
             flpDanhGia.Controls.Add(uc2);
             UCDanhGia uc3 = new UCDanhGia();
             flpDanhGia.Controls.Add(uc3);
+        }
+        private void btnVietDanhGia_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VietDanhGia f = new VietDanhGia();
+            f.ShowDialog();
+            f = null;
+            this.Close();
         }
     }
 }

@@ -16,7 +16,6 @@ namespace GUI
         {
             InitializeComponent();
         }
-
         private void btnThue_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -25,11 +24,13 @@ namespace GUI
             f = null;
             this.Close();
         }
-
         private void linklbDanhGia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Hide();
             DanhGia f = new DanhGia();
             f.ShowDialog();
+            f = null;
+            this.Close();
         }
     }
 }

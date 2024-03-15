@@ -30,13 +30,13 @@
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -63,6 +63,36 @@
             this.panel2.Size = new System.Drawing.Size(581, 188);
             this.panel2.TabIndex = 3;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "1-3",
+            "3-5",
+            "5-7",
+            "7-5",
+            "9+"});
+            this.comboBox2.Location = new System.Drawing.Point(397, 15);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(160, 28);
+            this.comboBox2.TabIndex = 29;
+            this.comboBox2.Text = "Điểm đánh giá";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Rất tệ",
+            "Kém",
+            "Tạm",
+            "Tốt",
+            "Tuyệt hảo"});
+            this.comboBox1.Location = new System.Drawing.Point(22, 15);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(131, 28);
+            this.comboBox1.TabIndex = 28;
+            this.comboBox1.Text = "Trải nghiệm";
+            // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -88,16 +118,16 @@
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(79, 95);
+            this.textBox2.Location = new System.Drawing.Point(68, 113);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(84, 20);
+            this.textBox2.Size = new System.Drawing.Size(124, 20);
             this.textBox2.TabIndex = 47;
             this.textBox2.Text = "Giường đôi";
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::GUI.Properties.Resources._0d6b64334a40e61ebf51;
-            this.pictureBox8.Location = new System.Drawing.Point(23, 77);
+            this.pictureBox8.Location = new System.Drawing.Point(12, 95);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(39, 38);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -108,50 +138,21 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(23, 28);
+            this.textBox1.Location = new System.Drawing.Point(12, 23);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(116, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Khách1";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Rất tệ",
-            "Kém",
-            "Tạm",
-            "Tốt",
-            "Tuyệt hảo"});
-            this.comboBox1.Location = new System.Drawing.Point(6, 15);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(131, 28);
-            this.comboBox1.TabIndex = 28;
-            this.comboBox1.Text = "Trải nghiệm";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "1-3",
-            "3-5",
-            "5-7",
-            "7-5",
-            "9+"});
-            this.comboBox2.Location = new System.Drawing.Point(428, 15);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(147, 28);
-            this.comboBox2.TabIndex = 29;
-            this.comboBox2.Text = "Điểm đánh giá";
             // 
             // VietDanhGia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(789, 191);
+            this.ClientSize = new System.Drawing.Size(792, 191);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "VietDanhGia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VietDanhGia";
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

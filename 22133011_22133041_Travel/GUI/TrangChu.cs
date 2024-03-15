@@ -16,15 +16,6 @@ namespace GUI
         {
             InitializeComponent();
         }
-        private void ucTrangChu1_Load(object sender, EventArgs e)
-        {
-
-        }
-        private void guna2GradientButton4_Click(object sender, EventArgs e)
-        {
-            DangNhap f = new DangNhap();
-            f.ShowDialog();
-        }
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             if(cbDiaDiem.Text=="Huế")
@@ -76,9 +67,10 @@ namespace GUI
             UCThongTinPhong uc6 = new UCThongTinPhong();
             flpTrangChu.Controls.Add(uc6);
         }
-        private void flpTrangChu_Paint(object sender, PaintEventArgs e)
-        {         
-            
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            DangNhap f = new DangNhap();
+            f.ShowDialog();
         }
     }
 }

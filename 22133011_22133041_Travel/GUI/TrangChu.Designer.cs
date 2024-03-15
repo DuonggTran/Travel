@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnDangNhap = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnDangKy = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnChoThue = new Guna.UI2.WinForms.Guna2GradientButton();
             this.cbDiaDiem = new System.Windows.Forms.ComboBox();
@@ -44,7 +44,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.guna2GradientButton4);
+            this.panel2.Controls.Add(this.btnDangNhap);
             this.panel2.Controls.Add(this.btnDangKy);
             this.panel2.Controls.Add(this.btnChoThue);
             this.panel2.Controls.Add(this.cbDiaDiem);
@@ -58,27 +58,27 @@
             this.panel2.Size = new System.Drawing.Size(1496, 140);
             this.panel2.TabIndex = 2;
             // 
-            // guna2GradientButton4
+            // btnDangNhap
             // 
-            this.guna2GradientButton4.Animated = true;
-            this.guna2GradientButton4.AutoRoundedCorners = true;
-            this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.BorderRadius = 19;
-            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.Orange;
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.PeachPuff;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(1326, 17);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.Size = new System.Drawing.Size(136, 40);
-            this.guna2GradientButton4.TabIndex = 19;
-            this.guna2GradientButton4.Text = "Đăng Nhập";
-            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
+            this.btnDangNhap.Animated = true;
+            this.btnDangNhap.AutoRoundedCorners = true;
+            this.btnDangNhap.BackColor = System.Drawing.Color.Transparent;
+            this.btnDangNhap.BorderRadius = 19;
+            this.btnDangNhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDangNhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDangNhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDangNhap.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDangNhap.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDangNhap.FillColor = System.Drawing.Color.Orange;
+            this.btnDangNhap.FillColor2 = System.Drawing.Color.PeachPuff;
+            this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnDangNhap.ForeColor = System.Drawing.Color.Black;
+            this.btnDangNhap.Location = new System.Drawing.Point(1326, 17);
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.Size = new System.Drawing.Size(136, 40);
+            this.btnDangNhap.TabIndex = 19;
+            this.btnDangNhap.Text = "Đăng Nhập";
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // btnDangKy
             // 
@@ -227,7 +227,6 @@
             this.flpTrangChu.Name = "flpTrangChu";
             this.flpTrangChu.Size = new System.Drawing.Size(1496, 459);
             this.flpTrangChu.TabIndex = 3;
-            this.flpTrangChu.Paint += new System.Windows.Forms.PaintEventHandler(this.flpTrangChu_Paint);
             // 
             // TrangChu
             // 
@@ -256,7 +255,7 @@
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox3;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton btnDangNhap;
         private Guna.UI2.WinForms.Guna2GradientButton btnDangKy;
         private System.Windows.Forms.FlowLayoutPanel flpTrangChu;
     }

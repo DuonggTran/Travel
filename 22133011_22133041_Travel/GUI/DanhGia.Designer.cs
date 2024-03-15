@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVietDanhGia = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -38,16 +38,17 @@
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnVietDanhGia
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(664, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 39);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Viết đánh giá";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnVietDanhGia.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnVietDanhGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVietDanhGia.Location = new System.Drawing.Point(664, 8);
+            this.btnVietDanhGia.Name = "btnVietDanhGia";
+            this.btnVietDanhGia.Size = new System.Drawing.Size(134, 39);
+            this.btnVietDanhGia.TabIndex = 1;
+            this.btnVietDanhGia.Text = "Viết đánh giá";
+            this.btnVietDanhGia.UseVisualStyleBackColor = true;
+            this.btnVietDanhGia.Click += new System.EventHandler(this.btnVietDanhGia_Click);
             // 
             // label1
             // 
@@ -72,10 +73,10 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnVietDanhGia);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 55);
+            this.panel1.Size = new System.Drawing.Size(811, 55);
             this.panel1.TabIndex = 4;
             // 
             // panel2
@@ -85,22 +86,21 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(0, 54);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(803, 612);
+            this.panel2.Size = new System.Drawing.Size(811, 612);
             this.panel2.TabIndex = 5;
             // 
             // flpDanhGia
             // 
             this.flpDanhGia.Location = new System.Drawing.Point(-1, 40);
             this.flpDanhGia.Name = "flpDanhGia";
-            this.flpDanhGia.Size = new System.Drawing.Size(799, 571);
+            this.flpDanhGia.Size = new System.Drawing.Size(811, 571);
             this.flpDanhGia.TabIndex = 4;
-            this.flpDanhGia.Paint += new System.Windows.Forms.PaintEventHandler(this.flpDanhGia_Paint);
             // 
             // DanhGia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 665);
+            this.ClientSize = new System.Drawing.Size(812, 665);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -118,7 +118,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnVietDanhGia;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
