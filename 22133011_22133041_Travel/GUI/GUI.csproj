@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietAnh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiTietAnh.Designer.cs">
+      <DependentUpon>ChiTietAnh.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChiTietKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,7 @@
     <Compile Include="DanhGia.Designer.cs">
       <DependentUpon>DanhGia.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataConnection.cs" />
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>

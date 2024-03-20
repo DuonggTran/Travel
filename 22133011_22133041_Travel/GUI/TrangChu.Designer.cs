@@ -55,7 +55,7 @@
             this.panel2.Controls.Add(this.comboBox3);
             this.panel2.Location = new System.Drawing.Point(0, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1461, 140);
+            this.panel2.Size = new System.Drawing.Size(1451, 147);
             this.panel2.TabIndex = 2;
             // 
             // btnDangNhap
@@ -73,7 +73,7 @@
             this.btnDangNhap.FillColor2 = System.Drawing.Color.PeachPuff;
             this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.btnDangNhap.ForeColor = System.Drawing.Color.Black;
-            this.btnDangNhap.Location = new System.Drawing.Point(1295, 17);
+            this.btnDangNhap.Location = new System.Drawing.Point(1281, 17);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(136, 40);
             this.btnDangNhap.TabIndex = 19;
@@ -95,7 +95,7 @@
             this.btnDangKy.FillColor2 = System.Drawing.Color.PeachPuff;
             this.btnDangKy.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.btnDangKy.ForeColor = System.Drawing.Color.Black;
-            this.btnDangKy.Location = new System.Drawing.Point(1295, 77);
+            this.btnDangKy.Location = new System.Drawing.Point(1281, 77);
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(136, 40);
             this.btnDangKy.TabIndex = 18;
@@ -118,7 +118,7 @@
             this.btnChoThue.FillColor2 = System.Drawing.Color.PeachPuff;
             this.btnChoThue.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.btnChoThue.ForeColor = System.Drawing.Color.Black;
-            this.btnChoThue.Location = new System.Drawing.Point(1136, 77);
+            this.btnChoThue.Location = new System.Drawing.Point(1122, 77);
             this.btnChoThue.Name = "btnChoThue";
             this.btnChoThue.Size = new System.Drawing.Size(125, 40);
             this.btnChoThue.TabIndex = 17;
@@ -134,7 +134,7 @@
             "Huế",
             "Đà Nẵng",
             "Nha Trang"});
-            this.cbDiaDiem.Location = new System.Drawing.Point(262, 24);
+            this.cbDiaDiem.Location = new System.Drawing.Point(257, 24);
             this.cbDiaDiem.Name = "cbDiaDiem";
             this.cbDiaDiem.Size = new System.Drawing.Size(812, 33);
             this.cbDiaDiem.TabIndex = 16;
@@ -155,7 +155,7 @@
             this.btnTimKiem.FillColor2 = System.Drawing.Color.PeachPuff;
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.btnTimKiem.ForeColor = System.Drawing.Color.Black;
-            this.btnTimKiem.Location = new System.Drawing.Point(1136, 17);
+            this.btnTimKiem.Location = new System.Drawing.Point(1122, 17);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(125, 40);
             this.btnTimKiem.TabIndex = 11;
@@ -184,7 +184,7 @@
             "Nhìn ra biển",
             "Ban công",
             "Hồ bơi riêng"});
-            this.comboBox5.Location = new System.Drawing.Point(852, 84);
+            this.comboBox5.Location = new System.Drawing.Point(847, 84);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(222, 33);
             this.comboBox5.TabIndex = 14;
@@ -199,7 +199,7 @@
             this.comboBox4.Items.AddRange(new object[] {
             "Giường đơn",
             "Giường đôi"});
-            this.comboBox4.Location = new System.Drawing.Point(570, 84);
+            this.comboBox4.Location = new System.Drawing.Point(564, 84);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(205, 33);
             this.comboBox4.TabIndex = 13;
@@ -214,7 +214,7 @@
             this.comboBox3.Items.AddRange(new object[] {
             "< 1.000.000 VND",
             "> 1.000.000 VND"});
-            this.comboBox3.Location = new System.Drawing.Point(262, 84);
+            this.comboBox3.Location = new System.Drawing.Point(257, 84);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(217, 33);
             this.comboBox3.TabIndex = 12;
@@ -225,7 +225,7 @@
             this.flpTrangChu.AutoScroll = true;
             this.flpTrangChu.Location = new System.Drawing.Point(0, 147);
             this.flpTrangChu.Name = "flpTrangChu";
-            this.flpTrangChu.Size = new System.Drawing.Size(1461, 459);
+            this.flpTrangChu.Size = new System.Drawing.Size(1451, 449);
             this.flpTrangChu.TabIndex = 3;
             // 
             // TrangChu
@@ -233,7 +233,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1463, 608);
+            this.ClientSize = new System.Drawing.Size(1454, 596);
             this.Controls.Add(this.flpTrangChu);
             this.Controls.Add(this.panel2);
             this.Name = "TrangChu";

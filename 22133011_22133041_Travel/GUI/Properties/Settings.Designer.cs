@@ -25,8 +25,7 @@ namespace GUI.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=DoAnCuoiKi;Integrated Security" +
-            "=True;Trust Server Certificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DUONGTRAN;Initial Catalog=DoAnCuoiKi;Integrated Security=True")]
         public string cnnStr {
             get {
                 return ((string)(this["cnnStr"]));

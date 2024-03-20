@@ -29,16 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangBai));
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.richTextBoxMoTa = new System.Windows.Forms.RichTextBox();
+            this.btnThemAnh1 = new System.Windows.Forms.Button();
+            this.btnThemAnh2 = new System.Windows.Forms.Button();
+            this.btnThemAnh3 = new System.Windows.Forms.Button();
+            this.btnThemAnh4 = new System.Windows.Forms.Button();
+            this.pic_Anh3 = new System.Windows.Forms.PictureBox();
+            this.pic_Anh2 = new System.Windows.Forms.PictureBox();
+            this.pic_Anh4 = new System.Windows.Forms.PictureBox();
+            this.pic_Anh1 = new System.Windows.Forms.PictureBox();
+            this.txtMoTa = new System.Windows.Forms.RichTextBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -46,18 +45,19 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.comboBoxDiaDiem = new System.Windows.Forms.ComboBox();
-            this.comboBoxTienIch = new System.Windows.Forms.ComboBox();
-            this.comboBoxGiaTien = new System.Windows.Forms.ComboBox();
-            this.comboBoxPhuongTien = new System.Windows.Forms.ComboBox();
-            this.comboBoxLoaiPhong = new System.Windows.Forms.ComboBox();
-            this.comboBoxTienNghi = new System.Windows.Forms.ComboBox();
-            this.comboBoxAnUong = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnDangBai = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.cboDiaDiem = new System.Windows.Forms.ComboBox();
+            this.cboTienIch = new System.Windows.Forms.ComboBox();
+            this.cboGiaTien = new System.Windows.Forms.ComboBox();
+            this.cboPhuongTien = new System.Windows.Forms.ComboBox();
+            this.cboLoaiPhong = new System.Windows.Forms.ComboBox();
+            this.cboTienNghi = new System.Windows.Forms.ComboBox();
+            this.cboAnUong = new System.Windows.Forms.ComboBox();
+            this.txtTenKhachSan = new Guna.UI2.WinForms.Guna2TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -67,100 +67,94 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // btnThemAnh1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-3, -1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(866, 61);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Tên Khách Sạn";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnThemAnh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemAnh1.Location = new System.Drawing.Point(123, 352);
+            this.btnThemAnh1.Name = "btnThemAnh1";
+            this.btnThemAnh1.Size = new System.Drawing.Size(123, 31);
+            this.btnThemAnh1.TabIndex = 5;
+            this.btnThemAnh1.Text = "Thêm ảnh";
+            this.btnThemAnh1.UseVisualStyleBackColor = true;
+            this.btnThemAnh1.Click += new System.EventHandler(this.btnThemAnh1_Click);
             // 
-            // button1
+            // btnThemAnh2
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(114, 352);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 31);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Thêm ảnh";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnThemAnh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemAnh2.Location = new System.Drawing.Point(422, 179);
+            this.btnThemAnh2.Name = "btnThemAnh2";
+            this.btnThemAnh2.Size = new System.Drawing.Size(119, 31);
+            this.btnThemAnh2.TabIndex = 6;
+            this.btnThemAnh2.Text = "Thêm ảnh";
+            this.btnThemAnh2.UseVisualStyleBackColor = true;
+            this.btnThemAnh2.Click += new System.EventHandler(this.btnThemAnh2_Click);
             // 
-            // button2
+            // btnThemAnh3
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(422, 179);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 31);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Thêm ảnh";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnThemAnh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemAnh3.Location = new System.Drawing.Point(688, 179);
+            this.btnThemAnh3.Name = "btnThemAnh3";
+            this.btnThemAnh3.Size = new System.Drawing.Size(115, 31);
+            this.btnThemAnh3.TabIndex = 7;
+            this.btnThemAnh3.Text = "Thêm ảnh";
+            this.btnThemAnh3.UseVisualStyleBackColor = true;
+            this.btnThemAnh3.Click += new System.EventHandler(this.btnThemAnh3_Click);
             // 
-            // button3
+            // btnThemAnh4
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(688, 179);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 31);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Thêm ảnh";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnThemAnh4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemAnh4.Location = new System.Drawing.Point(520, 352);
+            this.btnThemAnh4.Name = "btnThemAnh4";
+            this.btnThemAnh4.Size = new System.Drawing.Size(123, 31);
+            this.btnThemAnh4.TabIndex = 8;
+            this.btnThemAnh4.Text = "Thêm ảnh";
+            this.btnThemAnh4.UseVisualStyleBackColor = true;
+            this.btnThemAnh4.Click += new System.EventHandler(this.btnThemAnh4_Click);
             // 
-            // button4
+            // pic_Anh3
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(520, 352);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(123, 31);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Thêm ảnh";
-            this.button4.UseVisualStyleBackColor = true;
+            this.pic_Anh3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_Anh3.Location = new System.Drawing.Point(615, 69);
+            this.pic_Anh3.Name = "pic_Anh3";
+            this.pic_Anh3.Size = new System.Drawing.Size(235, 101);
+            this.pic_Anh3.TabIndex = 3;
+            this.pic_Anh3.TabStop = false;
             // 
-            // pictureBox4
+            // pic_Anh2
             // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox4.Location = new System.Drawing.Point(615, 69);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(235, 101);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.pic_Anh2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_Anh2.Location = new System.Drawing.Point(388, 69);
+            this.pic_Anh2.Name = "pic_Anh2";
+            this.pic_Anh2.Size = new System.Drawing.Size(221, 101);
+            this.pic_Anh2.TabIndex = 2;
+            this.pic_Anh2.TabStop = false;
             // 
-            // pictureBox3
+            // pic_Anh4
             // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(388, 69);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(221, 101);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.pic_Anh4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_Anh4.Location = new System.Drawing.Point(388, 216);
+            this.pic_Anh4.Name = "pic_Anh4";
+            this.pic_Anh4.Size = new System.Drawing.Size(462, 119);
+            this.pic_Anh4.TabIndex = 1;
+            this.pic_Anh4.TabStop = false;
             // 
-            // pictureBox2
+            // pic_Anh1
             // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(388, 216);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(462, 119);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pic_Anh1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_Anh1.Location = new System.Drawing.Point(11, 69);
+            this.pic_Anh1.Name = "pic_Anh1";
+            this.pic_Anh1.Size = new System.Drawing.Size(371, 266);
+            this.pic_Anh1.TabIndex = 0;
+            this.pic_Anh1.TabStop = false;
             // 
-            // pictureBox1
+            // txtMoTa
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 69);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(371, 266);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // richTextBoxMoTa
-            // 
-            this.richTextBoxMoTa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBoxMoTa.Location = new System.Drawing.Point(11, 545);
-            this.richTextBoxMoTa.Name = "richTextBoxMoTa";
-            this.richTextBoxMoTa.Size = new System.Drawing.Size(839, 129);
-            this.richTextBoxMoTa.TabIndex = 54;
-            this.richTextBoxMoTa.Text = resources.GetString("richTextBoxMoTa.Text");
+            this.txtMoTa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMoTa.Location = new System.Drawing.Point(11, 545);
+            this.txtMoTa.Name = "txtMoTa";
+            this.txtMoTa.Size = new System.Drawing.Size(839, 129);
+            this.txtMoTa.TabIndex = 54;
+            this.txtMoTa.Text = resources.GetString("txtMoTa.Text");
             // 
             // pictureBox11
             // 
@@ -233,126 +227,153 @@
             this.pictureBox5.TabIndex = 55;
             this.pictureBox5.TabStop = false;
             // 
-            // guna2GradientButton1
+            // btnDangBai
             // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.AutoRoundedCorners = true;
-            this.guna2GradientButton1.BorderRadius = 21;
-            this.guna2GradientButton1.BorderThickness = 1;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(350, 680);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton1.TabIndex = 69;
-            this.guna2GradientButton1.Text = "Đăng Bài";
+            this.btnDangBai.Animated = true;
+            this.btnDangBai.AutoRoundedCorners = true;
+            this.btnDangBai.BorderRadius = 21;
+            this.btnDangBai.BorderThickness = 1;
+            this.btnDangBai.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDangBai.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDangBai.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDangBai.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDangBai.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDangBai.FillColor = System.Drawing.Color.White;
+            this.btnDangBai.FillColor2 = System.Drawing.Color.White;
+            this.btnDangBai.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnDangBai.ForeColor = System.Drawing.Color.Black;
+            this.btnDangBai.Location = new System.Drawing.Point(350, 680);
+            this.btnDangBai.Name = "btnDangBai";
+            this.btnDangBai.Size = new System.Drawing.Size(180, 45);
+            this.btnDangBai.TabIndex = 69;
+            this.btnDangBai.Text = "Đăng Bài";
+            this.btnDangBai.Click += new System.EventHandler(this.btnDangBai_Click);
             // 
-            // comboBoxDiaDiem
+            // cboDiaDiem
             // 
-            this.comboBoxDiaDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxDiaDiem.FormattingEnabled = true;
-            this.comboBoxDiaDiem.Items.AddRange(new object[] {
+            this.cboDiaDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboDiaDiem.FormattingEnabled = true;
+            this.cboDiaDiem.Items.AddRange(new object[] {
             "Đà Nẵng",
             "Nha Trang",
             "Huế",
             "Khác"});
-            this.comboBoxDiaDiem.Location = new System.Drawing.Point(83, 427);
-            this.comboBoxDiaDiem.Name = "comboBoxDiaDiem";
-            this.comboBoxDiaDiem.Size = new System.Drawing.Size(110, 28);
-            this.comboBoxDiaDiem.TabIndex = 70;
+            this.cboDiaDiem.Location = new System.Drawing.Point(83, 424);
+            this.cboDiaDiem.Name = "cboDiaDiem";
+            this.cboDiaDiem.Size = new System.Drawing.Size(132, 28);
+            this.cboDiaDiem.TabIndex = 70;
             // 
-            // comboBoxTienIch
+            // cboTienIch
             // 
-            this.comboBoxTienIch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxTienIch.FormattingEnabled = true;
-            this.comboBoxTienIch.Items.AddRange(new object[] {
+            this.cboTienIch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTienIch.FormattingEnabled = true;
+            this.cboTienIch.Items.AddRange(new object[] {
             "4G",
             "5G"});
-            this.comboBoxTienIch.Location = new System.Drawing.Point(83, 492);
-            this.comboBoxTienIch.Name = "comboBoxTienIch";
-            this.comboBoxTienIch.Size = new System.Drawing.Size(110, 28);
-            this.comboBoxTienIch.TabIndex = 71;
+            this.cboTienIch.Location = new System.Drawing.Point(83, 492);
+            this.cboTienIch.Name = "cboTienIch";
+            this.cboTienIch.Size = new System.Drawing.Size(132, 28);
+            this.cboTienIch.TabIndex = 71;
             // 
-            // comboBoxGiaTien
+            // cboGiaTien
             // 
-            this.comboBoxGiaTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxGiaTien.FormattingEnabled = true;
-            this.comboBoxGiaTien.Location = new System.Drawing.Point(705, 424);
-            this.comboBoxGiaTien.Name = "comboBoxGiaTien";
-            this.comboBoxGiaTien.Size = new System.Drawing.Size(145, 28);
-            this.comboBoxGiaTien.TabIndex = 72;
+            this.cboGiaTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboGiaTien.FormattingEnabled = true;
+            this.cboGiaTien.Location = new System.Drawing.Point(705, 424);
+            this.cboGiaTien.Name = "cboGiaTien";
+            this.cboGiaTien.Size = new System.Drawing.Size(145, 28);
+            this.cboGiaTien.TabIndex = 72;
             // 
-            // comboBoxPhuongTien
+            // cboPhuongTien
             // 
-            this.comboBoxPhuongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxPhuongTien.FormattingEnabled = true;
-            this.comboBoxPhuongTien.Items.AddRange(new object[] {
+            this.cboPhuongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboPhuongTien.FormattingEnabled = true;
+            this.cboPhuongTien.Items.AddRange(new object[] {
             "Xe máy",
             "Ô tô"});
-            this.comboBoxPhuongTien.Location = new System.Drawing.Point(511, 424);
-            this.comboBoxPhuongTien.Name = "comboBoxPhuongTien";
-            this.comboBoxPhuongTien.Size = new System.Drawing.Size(110, 28);
-            this.comboBoxPhuongTien.TabIndex = 73;
+            this.cboPhuongTien.Location = new System.Drawing.Point(499, 424);
+            this.cboPhuongTien.Name = "cboPhuongTien";
+            this.cboPhuongTien.Size = new System.Drawing.Size(139, 28);
+            this.cboPhuongTien.TabIndex = 73;
             // 
-            // comboBoxLoaiPhong
+            // cboLoaiPhong
             // 
-            this.comboBoxLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxLoaiPhong.FormattingEnabled = true;
-            this.comboBoxLoaiPhong.Items.AddRange(new object[] {
+            this.cboLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboLoaiPhong.FormattingEnabled = true;
+            this.cboLoaiPhong.Items.AddRange(new object[] {
             "Giường đôi",
             "Giường đơn"});
-            this.comboBoxLoaiPhong.Location = new System.Drawing.Point(299, 424);
-            this.comboBoxLoaiPhong.Name = "comboBoxLoaiPhong";
-            this.comboBoxLoaiPhong.Size = new System.Drawing.Size(110, 28);
-            this.comboBoxLoaiPhong.TabIndex = 74;
+            this.cboLoaiPhong.Location = new System.Drawing.Point(282, 424);
+            this.cboLoaiPhong.Name = "cboLoaiPhong";
+            this.cboLoaiPhong.Size = new System.Drawing.Size(148, 28);
+            this.cboLoaiPhong.TabIndex = 74;
             // 
-            // comboBoxTienNghi
+            // cboTienNghi
             // 
-            this.comboBoxTienNghi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxTienNghi.FormattingEnabled = true;
-            this.comboBoxTienNghi.Items.AddRange(new object[] {
+            this.cboTienNghi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTienNghi.FormattingEnabled = true;
+            this.cboTienNghi.Items.AddRange(new object[] {
             "Hồ bơi riêng",
             "Ban công",
             "Bồn tắm",
             "Nhìn ra biển",
             "Khác"});
-            this.comboBoxTienNghi.Location = new System.Drawing.Point(299, 492);
-            this.comboBoxTienNghi.Name = "comboBoxTienNghi";
-            this.comboBoxTienNghi.Size = new System.Drawing.Size(110, 28);
-            this.comboBoxTienNghi.TabIndex = 75;
+            this.cboTienNghi.Location = new System.Drawing.Point(282, 492);
+            this.cboTienNghi.Name = "cboTienNghi";
+            this.cboTienNghi.Size = new System.Drawing.Size(148, 28);
+            this.cboTienNghi.TabIndex = 75;
             // 
-            // comboBoxAnUong
+            // cboAnUong
             // 
-            this.comboBoxAnUong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxAnUong.FormattingEnabled = true;
-            this.comboBoxAnUong.Items.AddRange(new object[] {
+            this.cboAnUong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboAnUong.FormattingEnabled = true;
+            this.cboAnUong.Items.AddRange(new object[] {
             "Miễn phí bữa sáng",
             "Miễn phí ăn uống"});
-            this.comboBoxAnUong.Location = new System.Drawing.Point(511, 492);
-            this.comboBoxAnUong.Name = "comboBoxAnUong";
-            this.comboBoxAnUong.Size = new System.Drawing.Size(110, 28);
-            this.comboBoxAnUong.TabIndex = 76;
+            this.cboAnUong.Location = new System.Drawing.Point(497, 492);
+            this.cboAnUong.Name = "cboAnUong";
+            this.cboAnUong.Size = new System.Drawing.Size(202, 28);
+            this.cboAnUong.TabIndex = 76;
+            // 
+            // txtTenKhachSan
+            // 
+            this.txtTenKhachSan.BorderColor = System.Drawing.Color.Black;
+            this.txtTenKhachSan.BorderThickness = 0;
+            this.txtTenKhachSan.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTenKhachSan.DefaultText = "Tên Khách Sạn";
+            this.txtTenKhachSan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTenKhachSan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTenKhachSan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTenKhachSan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTenKhachSan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTenKhachSan.Font = new System.Drawing.Font("Segoe UI", 16.2F);
+            this.txtTenKhachSan.ForeColor = System.Drawing.Color.Black;
+            this.txtTenKhachSan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTenKhachSan.Location = new System.Drawing.Point(11, 2);
+            this.txtTenKhachSan.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.txtTenKhachSan.Name = "txtTenKhachSan";
+            this.txtTenKhachSan.PasswordChar = '\0';
+            this.txtTenKhachSan.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtTenKhachSan.PlaceholderText = "";
+            this.txtTenKhachSan.SelectedText = "";
+            this.txtTenKhachSan.Size = new System.Drawing.Size(839, 65);
+            this.txtTenKhachSan.TabIndex = 77;
+            this.txtTenKhachSan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // DangBai
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 732);
-            this.Controls.Add(this.comboBoxAnUong);
-            this.Controls.Add(this.comboBoxTienNghi);
-            this.Controls.Add(this.comboBoxLoaiPhong);
-            this.Controls.Add(this.comboBoxPhuongTien);
-            this.Controls.Add(this.comboBoxGiaTien);
-            this.Controls.Add(this.comboBoxTienIch);
-            this.Controls.Add(this.comboBoxDiaDiem);
-            this.Controls.Add(this.guna2GradientButton1);
+            this.Controls.Add(this.txtTenKhachSan);
+            this.Controls.Add(this.cboAnUong);
+            this.Controls.Add(this.cboTienNghi);
+            this.Controls.Add(this.cboLoaiPhong);
+            this.Controls.Add(this.cboPhuongTien);
+            this.Controls.Add(this.cboGiaTien);
+            this.Controls.Add(this.cboTienIch);
+            this.Controls.Add(this.cboDiaDiem);
+            this.Controls.Add(this.btnDangBai);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
@@ -360,23 +381,22 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.richTextBoxMoTa);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.txtMoTa);
+            this.Controls.Add(this.btnThemAnh4);
+            this.Controls.Add(this.btnThemAnh3);
+            this.Controls.Add(this.btnThemAnh2);
+            this.Controls.Add(this.btnThemAnh1);
+            this.Controls.Add(this.pic_Anh3);
+            this.Controls.Add(this.pic_Anh2);
+            this.Controls.Add(this.pic_Anh4);
+            this.Controls.Add(this.pic_Anh1);
             this.Name = "DangBai";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangBai";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_Anh1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -390,16 +410,15 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.RichTextBox richTextBoxMoTa;
+        private System.Windows.Forms.PictureBox pic_Anh1;
+        private System.Windows.Forms.PictureBox pic_Anh4;
+        private System.Windows.Forms.PictureBox pic_Anh2;
+        private System.Windows.Forms.PictureBox pic_Anh3;
+        private System.Windows.Forms.Button btnThemAnh1;
+        private System.Windows.Forms.Button btnThemAnh2;
+        private System.Windows.Forms.Button btnThemAnh3;
+        private System.Windows.Forms.Button btnThemAnh4;
+        private System.Windows.Forms.RichTextBox txtMoTa;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
@@ -407,13 +426,14 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private System.Windows.Forms.ComboBox comboBoxDiaDiem;
-        private System.Windows.Forms.ComboBox comboBoxTienIch;
-        private System.Windows.Forms.ComboBox comboBoxGiaTien;
-        private System.Windows.Forms.ComboBox comboBoxPhuongTien;
-        private System.Windows.Forms.ComboBox comboBoxLoaiPhong;
-        private System.Windows.Forms.ComboBox comboBoxTienNghi;
-        private System.Windows.Forms.ComboBox comboBoxAnUong;
+        private Guna.UI2.WinForms.Guna2GradientButton btnDangBai;
+        private System.Windows.Forms.ComboBox cboDiaDiem;
+        private System.Windows.Forms.ComboBox cboTienIch;
+        private System.Windows.Forms.ComboBox cboGiaTien;
+        private System.Windows.Forms.ComboBox cboPhuongTien;
+        private System.Windows.Forms.ComboBox cboLoaiPhong;
+        private System.Windows.Forms.ComboBox cboTienNghi;
+        private System.Windows.Forms.ComboBox cboAnUong;
+        private Guna.UI2.WinForms.Guna2TextBox txtTenKhachSan;
     }
 }
