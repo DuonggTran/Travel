@@ -32,5 +32,9 @@ namespace GUI
             f = null;
             this.Close();
         }
+        private void ChiTietPhong_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

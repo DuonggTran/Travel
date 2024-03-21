@@ -69,7 +69,7 @@ namespace GUI
             pic_Anh2.Image = null;
             pic_Anh3.Image = null;
             pic_Anh4.Image = null;
-            MessageBox.Show("Dang Bai Thanh Cong");
+            MessageBox.Show("Đăng Bài Thành Công");
         }
     }
 }

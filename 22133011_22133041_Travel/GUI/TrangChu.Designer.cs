@@ -32,12 +32,12 @@
             this.btnDangNhap = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnDangKy = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnChoThue = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.cbDiaDiem = new System.Windows.Forms.ComboBox();
+            this.cboDiaDiem = new System.Windows.Forms.ComboBox();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cboTienNghi = new System.Windows.Forms.ComboBox();
+            this.cboLoaiPhong = new System.Windows.Forms.ComboBox();
+            this.cboGiaTien = new System.Windows.Forms.ComboBox();
             this.flpTrangChu = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -47,12 +47,12 @@
             this.panel2.Controls.Add(this.btnDangNhap);
             this.panel2.Controls.Add(this.btnDangKy);
             this.panel2.Controls.Add(this.btnChoThue);
-            this.panel2.Controls.Add(this.cbDiaDiem);
+            this.panel2.Controls.Add(this.cboDiaDiem);
             this.panel2.Controls.Add(this.btnTimKiem);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.comboBox5);
-            this.panel2.Controls.Add(this.comboBox4);
-            this.panel2.Controls.Add(this.comboBox3);
+            this.panel2.Controls.Add(this.cboTienNghi);
+            this.panel2.Controls.Add(this.cboLoaiPhong);
+            this.panel2.Controls.Add(this.cboGiaTien);
             this.panel2.Location = new System.Drawing.Point(0, 1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1451, 147);
@@ -125,19 +125,19 @@
             this.btnChoThue.Text = "Cho Thuê";
             this.btnChoThue.Click += new System.EventHandler(this.btnChoThue_Click);
             // 
-            // cbDiaDiem
+            // cboDiaDiem
             // 
-            this.cbDiaDiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.cbDiaDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbDiaDiem.FormattingEnabled = true;
-            this.cbDiaDiem.Items.AddRange(new object[] {
+            this.cboDiaDiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.cboDiaDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboDiaDiem.FormattingEnabled = true;
+            this.cboDiaDiem.Items.AddRange(new object[] {
             "Huế",
             "Đà Nẵng",
             "Nha Trang"});
-            this.cbDiaDiem.Location = new System.Drawing.Point(257, 24);
-            this.cbDiaDiem.Name = "cbDiaDiem";
-            this.cbDiaDiem.Size = new System.Drawing.Size(812, 33);
-            this.cbDiaDiem.TabIndex = 16;
+            this.cboDiaDiem.Location = new System.Drawing.Point(257, 24);
+            this.cboDiaDiem.Name = "cboDiaDiem";
+            this.cboDiaDiem.Size = new System.Drawing.Size(812, 33);
+            this.cboDiaDiem.TabIndex = 16;
             // 
             // btnTimKiem
             // 
@@ -174,51 +174,51 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Travel\r\n";
             // 
-            // comboBox5
+            // cboTienNghi
             // 
-            this.comboBox5.BackColor = System.Drawing.Color.White;
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cboTienNghi.BackColor = System.Drawing.Color.White;
+            this.cboTienNghi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTienNghi.FormattingEnabled = true;
+            this.cboTienNghi.Items.AddRange(new object[] {
             "Bồn tắm",
             "Nhìn ra biển",
             "Ban công",
             "Hồ bơi riêng"});
-            this.comboBox5.Location = new System.Drawing.Point(847, 84);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(222, 33);
-            this.comboBox5.TabIndex = 14;
-            this.comboBox5.Text = "Tiện Nghi Phòng";
+            this.cboTienNghi.Location = new System.Drawing.Point(847, 84);
+            this.cboTienNghi.Name = "cboTienNghi";
+            this.cboTienNghi.Size = new System.Drawing.Size(222, 33);
+            this.cboTienNghi.TabIndex = 14;
+            this.cboTienNghi.Text = "Tiện Nghi Phòng";
             // 
-            // comboBox4
+            // cboLoaiPhong
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cboLoaiPhong.BackColor = System.Drawing.Color.White;
+            this.cboLoaiPhong.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cboLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboLoaiPhong.FormattingEnabled = true;
+            this.cboLoaiPhong.Items.AddRange(new object[] {
             "Giường đơn",
             "Giường đôi"});
-            this.comboBox4.Location = new System.Drawing.Point(564, 84);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(205, 33);
-            this.comboBox4.TabIndex = 13;
-            this.comboBox4.Text = "Loại Phòng";
+            this.cboLoaiPhong.Location = new System.Drawing.Point(564, 84);
+            this.cboLoaiPhong.Name = "cboLoaiPhong";
+            this.cboLoaiPhong.Size = new System.Drawing.Size(205, 33);
+            this.cboLoaiPhong.TabIndex = 13;
+            this.cboLoaiPhong.Text = "Loại Phòng";
             // 
-            // comboBox3
+            // cboGiaTien
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cboGiaTien.BackColor = System.Drawing.Color.White;
+            this.cboGiaTien.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cboGiaTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboGiaTien.FormattingEnabled = true;
+            this.cboGiaTien.Items.AddRange(new object[] {
             "< 1.000.000 VND",
             "> 1.000.000 VND"});
-            this.comboBox3.Location = new System.Drawing.Point(257, 84);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(217, 33);
-            this.comboBox3.TabIndex = 12;
-            this.comboBox3.Text = "Giá Tiền";
+            this.cboGiaTien.Location = new System.Drawing.Point(257, 84);
+            this.cboGiaTien.Name = "cboGiaTien";
+            this.cboGiaTien.Size = new System.Drawing.Size(217, 33);
+            this.cboGiaTien.TabIndex = 12;
+            this.cboGiaTien.Text = "Giá Tiền";
             // 
             // flpTrangChu
             // 
@@ -249,12 +249,12 @@
         #endregion
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2GradientButton btnChoThue;
-        private System.Windows.Forms.ComboBox cbDiaDiem;
+        private System.Windows.Forms.ComboBox cboDiaDiem;
         private Guna.UI2.WinForms.Guna2GradientButton btnTimKiem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cboTienNghi;
+        private System.Windows.Forms.ComboBox cboLoaiPhong;
+        private System.Windows.Forms.ComboBox cboGiaTien;
         private Guna.UI2.WinForms.Guna2GradientButton btnDangNhap;
         private Guna.UI2.WinForms.Guna2GradientButton btnDangKy;
         private System.Windows.Forms.FlowLayoutPanel flpTrangChu;
