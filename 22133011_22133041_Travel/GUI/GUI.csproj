@@ -121,6 +121,9 @@
     <Compile Include="VietDanhGia.Designer.cs">
       <DependentUpon>VietDanhGia.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChiTietAnh.resx">
+      <DependentUpon>ChiTietAnh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChiTietKhachHang.resx">
       <DependentUpon>ChiTietKhachHang.cs</DependentUpon>
     </EmbeddedResource>

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangBai));
             this.btnThemAnh1 = new System.Windows.Forms.Button();
             this.btnThemAnh2 = new System.Windows.Forms.Button();
             this.btnThemAnh3 = new System.Windows.Forms.Button();
@@ -69,10 +68,11 @@
             // 
             // btnThemAnh1
             // 
+            this.btnThemAnh1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThemAnh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemAnh1.Location = new System.Drawing.Point(123, 352);
+            this.btnThemAnh1.Location = new System.Drawing.Point(123, 349);
             this.btnThemAnh1.Name = "btnThemAnh1";
-            this.btnThemAnh1.Size = new System.Drawing.Size(123, 31);
+            this.btnThemAnh1.Size = new System.Drawing.Size(123, 34);
             this.btnThemAnh1.TabIndex = 5;
             this.btnThemAnh1.Text = "Thêm ảnh";
             this.btnThemAnh1.UseVisualStyleBackColor = true;
@@ -80,10 +80,11 @@
             // 
             // btnThemAnh2
             // 
+            this.btnThemAnh2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThemAnh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemAnh2.Location = new System.Drawing.Point(422, 179);
+            this.btnThemAnh2.Location = new System.Drawing.Point(436, 176);
             this.btnThemAnh2.Name = "btnThemAnh2";
-            this.btnThemAnh2.Size = new System.Drawing.Size(119, 31);
+            this.btnThemAnh2.Size = new System.Drawing.Size(119, 34);
             this.btnThemAnh2.TabIndex = 6;
             this.btnThemAnh2.Text = "Thêm ảnh";
             this.btnThemAnh2.UseVisualStyleBackColor = true;
@@ -91,10 +92,11 @@
             // 
             // btnThemAnh3
             // 
+            this.btnThemAnh3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThemAnh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemAnh3.Location = new System.Drawing.Point(688, 179);
+            this.btnThemAnh3.Location = new System.Drawing.Point(669, 176);
             this.btnThemAnh3.Name = "btnThemAnh3";
-            this.btnThemAnh3.Size = new System.Drawing.Size(115, 31);
+            this.btnThemAnh3.Size = new System.Drawing.Size(119, 34);
             this.btnThemAnh3.TabIndex = 7;
             this.btnThemAnh3.Text = "Thêm ảnh";
             this.btnThemAnh3.UseVisualStyleBackColor = true;
@@ -102,10 +104,11 @@
             // 
             // btnThemAnh4
             // 
+            this.btnThemAnh4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThemAnh4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemAnh4.Location = new System.Drawing.Point(520, 352);
+            this.btnThemAnh4.Location = new System.Drawing.Point(548, 349);
             this.btnThemAnh4.Name = "btnThemAnh4";
-            this.btnThemAnh4.Size = new System.Drawing.Size(123, 31);
+            this.btnThemAnh4.Size = new System.Drawing.Size(123, 34);
             this.btnThemAnh4.TabIndex = 8;
             this.btnThemAnh4.Text = "Thêm ảnh";
             this.btnThemAnh4.UseVisualStyleBackColor = true;
@@ -154,7 +157,7 @@
             this.txtMoTa.Name = "txtMoTa";
             this.txtMoTa.Size = new System.Drawing.Size(839, 129);
             this.txtMoTa.TabIndex = 54;
-            this.txtMoTa.Text = resources.GetString("txtMoTa.Text");
+            this.txtMoTa.Text = "Nhập mô tả ở đây";
             // 
             // pictureBox11
             // 
@@ -258,7 +261,7 @@
             "Nha Trang",
             "Huế",
             "Khác"});
-            this.cboDiaDiem.Location = new System.Drawing.Point(83, 424);
+            this.cboDiaDiem.Location = new System.Drawing.Point(74, 424);
             this.cboDiaDiem.Name = "cboDiaDiem";
             this.cboDiaDiem.Size = new System.Drawing.Size(132, 28);
             this.cboDiaDiem.TabIndex = 70;
@@ -270,7 +273,7 @@
             this.cboTienIch.Items.AddRange(new object[] {
             "4G",
             "5G"});
-            this.cboTienIch.Location = new System.Drawing.Point(83, 492);
+            this.cboTienIch.Location = new System.Drawing.Point(74, 492);
             this.cboTienIch.Name = "cboTienIch";
             this.cboTienIch.Size = new System.Drawing.Size(132, 28);
             this.cboTienIch.TabIndex = 71;
@@ -340,7 +343,7 @@
             this.txtTenKhachSan.BorderColor = System.Drawing.Color.Black;
             this.txtTenKhachSan.BorderThickness = 0;
             this.txtTenKhachSan.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTenKhachSan.DefaultText = "Tên Khách Sạn";
+            this.txtTenKhachSan.DefaultText = "Nhập tên khách sạn của bạn";
             this.txtTenKhachSan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtTenKhachSan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtTenKhachSan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -364,6 +367,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(862, 732);
             this.Controls.Add(this.txtTenKhachSan);
             this.Controls.Add(this.cboAnUong);
@@ -390,6 +394,8 @@
             this.Controls.Add(this.pic_Anh2);
             this.Controls.Add(this.pic_Anh4);
             this.Controls.Add(this.pic_Anh1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "DangBai";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangBai";

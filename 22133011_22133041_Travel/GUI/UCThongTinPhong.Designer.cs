@@ -96,7 +96,7 @@
             this.txtGiaTien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtGiaTien.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtGiaTien.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaTien.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.txtGiaTien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaTien.ForeColor = System.Drawing.Color.Black;
             this.txtGiaTien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGiaTien.Location = new System.Drawing.Point(209, 85);
@@ -105,6 +105,7 @@
             this.txtGiaTien.PasswordChar = '\0';
             this.txtGiaTien.PlaceholderForeColor = System.Drawing.Color.Black;
             this.txtGiaTien.PlaceholderText = "";
+            this.txtGiaTien.ReadOnly = true;
             this.txtGiaTien.SelectedText = "";
             this.txtGiaTien.Size = new System.Drawing.Size(191, 55);
             this.txtGiaTien.TabIndex = 5;
@@ -122,7 +123,7 @@
             this.txtTenKhachSan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTenKhachSan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTenKhachSan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTenKhachSan.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.txtTenKhachSan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhachSan.ForeColor = System.Drawing.Color.Black;
             this.txtTenKhachSan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenKhachSan.Location = new System.Drawing.Point(209, 5);
@@ -131,6 +132,7 @@
             this.txtTenKhachSan.PasswordChar = '\0';
             this.txtTenKhachSan.PlaceholderForeColor = System.Drawing.Color.Black;
             this.txtTenKhachSan.PlaceholderText = "";
+            this.txtTenKhachSan.ReadOnly = true;
             this.txtTenKhachSan.SelectedText = "";
             this.txtTenKhachSan.Size = new System.Drawing.Size(255, 55);
             this.txtTenKhachSan.TabIndex = 4;

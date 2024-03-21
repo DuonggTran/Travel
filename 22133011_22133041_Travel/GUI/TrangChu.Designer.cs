@@ -133,7 +133,8 @@
             this.cboDiaDiem.Items.AddRange(new object[] {
             "Huế",
             "Đà Nẵng",
-            "Nha Trang"});
+            "Nha Trang",
+            "Khác"});
             this.cboDiaDiem.Location = new System.Drawing.Point(257, 24);
             this.cboDiaDiem.Name = "cboDiaDiem";
             this.cboDiaDiem.Size = new System.Drawing.Size(812, 33);
@@ -232,10 +233,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1454, 596);
             this.Controls.Add(this.flpTrangChu);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang Chu";

@@ -61,3 +61,4 @@ D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Tra
 D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.csproj.CopyComplete
 D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.exe
 D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.pdb
+D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietAnh.resources
