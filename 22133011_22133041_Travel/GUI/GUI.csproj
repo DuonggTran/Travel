@@ -101,6 +101,12 @@
       <DependentUpon>DanhGia.cs</DependentUpon>
     </Compile>
     <Compile Include="DataConnection.cs" />
+    <Compile Include="LichSuBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LichSuBook.Designer.cs">
+      <DependentUpon>LichSuBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
