@@ -130,8 +130,14 @@
   <data name="Gradient White To Blue Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gradient White To Blue Background1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="f2f783f4e4e7cd0558694a962b7f0872" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f2f783f4e4e7cd0558694a962b7f0872.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="179acdab52dbfe85a7ca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\179acdab52dbfe85a7ca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1c2246e84f2ded5db9d752acd29d357c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1c2246e84f2ded5db9d752acd29d357c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="7f87f2be6dcec19098df" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7f87f2be6dcec19098df.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +172,7 @@
   <data name="a9a4924c123cbe62e72d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a9a4924c123cbe62e72d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1c2246e84f2ded5db9d752acd29d357c" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1c2246e84f2ded5db9d752acd29d357c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="75f1a1ca2d27dcb0094eb0b8928e234d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\75f1a1ca2d27dcb0094eb0b8928e234d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

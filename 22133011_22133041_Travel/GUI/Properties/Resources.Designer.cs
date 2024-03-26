@@ -143,6 +143,16 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _75f1a1ca2d27dcb0094eb0b8928e234d {
+            get {
+                object obj = ResourceManager.GetObject("75f1a1ca2d27dcb0094eb0b8928e234d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _7f87f2be6dcec19098df {
             get {
                 object obj = ResourceManager.GetObject("7f87f2be6dcec19098df", resourceCulture);
@@ -196,6 +206,16 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap b25706f0a58309dd5092 {
             get {
                 object obj = ResourceManager.GetObject("b25706f0a58309dd5092", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f2f783f4e4e7cd0558694a962b7f0872 {
+            get {
+                object obj = ResourceManager.GetObject("f2f783f4e4e7cd0558694a962b7f0872", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
