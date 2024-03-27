@@ -28,121 +28,121 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.richTextBoxDanhGia = new System.Windows.Forms.RichTextBox();
+            this.pnl2 = new System.Windows.Forms.Panel();
+            this.cboDiemDanhGia = new System.Windows.Forms.ComboBox();
+            this.cboTraiNghiem = new System.Windows.Forms.ComboBox();
+            this.btnDangBai = new System.Windows.Forms.Button();
+            this.pnl1 = new System.Windows.Forms.Panel();
+            this.txtLoaiPhong = new System.Windows.Forms.TextBox();
+            this.pictureBoxLoaiPhong = new System.Windows.Forms.PictureBox();
+            this.txtTenKhach = new System.Windows.Forms.TextBox();
+            this.pnl2.SuspendLayout();
+            this.pnl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).BeginInit();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // richTextBoxDanhGia
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(6, 56);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(569, 87);
-            this.richTextBox1.TabIndex = 27;
-            this.richTextBox1.Text = "Homestay rất đẹp";
+            this.richTextBoxDanhGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBoxDanhGia.Location = new System.Drawing.Point(6, 56);
+            this.richTextBoxDanhGia.Name = "richTextBoxDanhGia";
+            this.richTextBoxDanhGia.Size = new System.Drawing.Size(569, 87);
+            this.richTextBoxDanhGia.TabIndex = 27;
+            this.richTextBoxDanhGia.Text = "Homestay rất đẹp";
             // 
-            // panel2
+            // pnl2
             // 
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.richTextBox1);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(209, 1);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(581, 188);
-            this.panel2.TabIndex = 3;
+            this.pnl2.Controls.Add(this.cboDiemDanhGia);
+            this.pnl2.Controls.Add(this.cboTraiNghiem);
+            this.pnl2.Controls.Add(this.richTextBoxDanhGia);
+            this.pnl2.Controls.Add(this.btnDangBai);
+            this.pnl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnl2.Location = new System.Drawing.Point(209, 1);
+            this.pnl2.Name = "pnl2";
+            this.pnl2.Size = new System.Drawing.Size(581, 188);
+            this.pnl2.TabIndex = 3;
             // 
-            // comboBox2
+            // cboDiemDanhGia
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboDiemDanhGia.FormattingEnabled = true;
+            this.cboDiemDanhGia.Items.AddRange(new object[] {
             "1-3",
             "3-5",
             "5-7",
             "7-5",
             "9+"});
-            this.comboBox2.Location = new System.Drawing.Point(397, 15);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(160, 28);
-            this.comboBox2.TabIndex = 29;
-            this.comboBox2.Text = "Điểm đánh giá";
+            this.cboDiemDanhGia.Location = new System.Drawing.Point(397, 15);
+            this.cboDiemDanhGia.Name = "cboDiemDanhGia";
+            this.cboDiemDanhGia.Size = new System.Drawing.Size(160, 28);
+            this.cboDiemDanhGia.TabIndex = 29;
+            this.cboDiemDanhGia.Text = "Điểm đánh giá";
             // 
-            // comboBox1
+            // cboTraiNghiem
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboTraiNghiem.FormattingEnabled = true;
+            this.cboTraiNghiem.Items.AddRange(new object[] {
             "Rất tệ",
             "Kém",
             "Tạm",
             "Tốt",
             "Tuyệt hảo"});
-            this.comboBox1.Location = new System.Drawing.Point(22, 15);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(131, 28);
-            this.comboBox1.TabIndex = 28;
-            this.comboBox1.Text = "Trải nghiệm";
+            this.cboTraiNghiem.Location = new System.Drawing.Point(22, 15);
+            this.cboTraiNghiem.Name = "cboTraiNghiem";
+            this.cboTraiNghiem.Size = new System.Drawing.Size(131, 28);
+            this.cboTraiNghiem.TabIndex = 28;
+            this.cboTraiNghiem.Text = "Trải nghiệm";
             // 
-            // button1
+            // btnDangBai
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(237, 149);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 35);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Đăng bài";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDangBai.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDangBai.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangBai.Location = new System.Drawing.Point(237, 149);
+            this.btnDangBai.Name = "btnDangBai";
+            this.btnDangBai.Size = new System.Drawing.Size(128, 35);
+            this.btnDangBai.TabIndex = 0;
+            this.btnDangBai.Text = "Đăng bài";
+            this.btnDangBai.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // pnl1
             // 
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(-1, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 188);
-            this.panel1.TabIndex = 2;
+            this.pnl1.Controls.Add(this.txtLoaiPhong);
+            this.pnl1.Controls.Add(this.pictureBoxLoaiPhong);
+            this.pnl1.Controls.Add(this.txtTenKhach);
+            this.pnl1.Location = new System.Drawing.Point(-1, 1);
+            this.pnl1.Name = "pnl1";
+            this.pnl1.Size = new System.Drawing.Size(210, 188);
+            this.pnl1.TabIndex = 2;
             // 
-            // textBox2
+            // txtLoaiPhong
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(68, 113);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(124, 20);
-            this.textBox2.TabIndex = 47;
-            this.textBox2.Text = "Giường đôi";
+            this.txtLoaiPhong.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLoaiPhong.Location = new System.Drawing.Point(68, 113);
+            this.txtLoaiPhong.Name = "txtLoaiPhong";
+            this.txtLoaiPhong.Size = new System.Drawing.Size(124, 20);
+            this.txtLoaiPhong.TabIndex = 47;
+            this.txtLoaiPhong.Text = "Giường đôi";
             // 
-            // pictureBox8
+            // pictureBoxLoaiPhong
             // 
-            this.pictureBox8.Image = global::GUI.Properties.Resources._0d6b64334a40e61ebf51;
-            this.pictureBox8.Location = new System.Drawing.Point(12, 95);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(39, 38);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 46;
-            this.pictureBox8.TabStop = false;
+            this.pictureBoxLoaiPhong.Image = global::GUI.Properties.Resources._0d6b64334a40e61ebf51;
+            this.pictureBoxLoaiPhong.Location = new System.Drawing.Point(12, 95);
+            this.pictureBoxLoaiPhong.Name = "pictureBoxLoaiPhong";
+            this.pictureBoxLoaiPhong.Size = new System.Drawing.Size(39, 38);
+            this.pictureBoxLoaiPhong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLoaiPhong.TabIndex = 46;
+            this.pictureBoxLoaiPhong.TabStop = false;
             // 
-            // textBox1
+            // txtTenKhach
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(116, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Khách1";
+            this.txtTenKhach.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenKhach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKhach.Location = new System.Drawing.Point(12, 23);
+            this.txtTenKhach.Name = "txtTenKhach";
+            this.txtTenKhach.Size = new System.Drawing.Size(116, 20);
+            this.txtTenKhach.TabIndex = 0;
+            this.txtTenKhach.Text = "Khách1";
             // 
             // VietDanhGia
             // 
@@ -150,31 +150,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(792, 191);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnl2);
+            this.Controls.Add(this.pnl1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "VietDanhGia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VietDanhGia";
-            this.panel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.pnl2.ResumeLayout(false);
+            this.pnl1.ResumeLayout(false);
+            this.pnl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxDanhGia;
+        private System.Windows.Forms.Panel pnl2;
+        private System.Windows.Forms.ComboBox cboDiemDanhGia;
+        private System.Windows.Forms.ComboBox cboTraiNghiem;
+        private System.Windows.Forms.Button btnDangBai;
+        private System.Windows.Forms.Panel pnl1;
+        private System.Windows.Forms.TextBox txtLoaiPhong;
+        private System.Windows.Forms.PictureBox pictureBoxLoaiPhong;
+        private System.Windows.Forms.TextBox txtTenKhach;
     }
 }

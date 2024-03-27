@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnThue = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnLuu = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.pictureBoxAnh2 = new System.Windows.Forms.PictureBox();
             this.lblHutThuoc = new System.Windows.Forms.Label();
             this.lblKichThuocPhong = new System.Windows.Forms.Label();
             this.lblTrongPhongTam = new System.Windows.Forms.Label();
             this.lblhuongTamNhin = new System.Windows.Forms.Label();
             this.lblTienNghiPhong = new System.Windows.Forms.Label();
             this.lblTenPhong = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAnh1 = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.chkTienNghi1 = new System.Windows.Forms.CheckBox();
             this.chkTienNghi2 = new System.Windows.Forms.CheckBox();
@@ -54,40 +54,40 @@
             this.chkHutThuoc2 = new System.Windows.Forms.CheckBox();
             this.chkHutThuoc1 = new System.Windows.Forms.CheckBox();
             this.txtKichThuocPhong = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnh2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnh1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnThue
+            // btnLuu
             // 
-            this.btnThue.AutoRoundedCorners = true;
-            this.btnThue.BorderRadius = 18;
-            this.btnThue.BorderThickness = 1;
-            this.btnThue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnThue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnThue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnThue.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnThue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThue.FillColor = System.Drawing.Color.White;
-            this.btnThue.FillColor2 = System.Drawing.Color.White;
-            this.btnThue.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.btnThue.ForeColor = System.Drawing.Color.Black;
-            this.btnThue.Location = new System.Drawing.Point(383, 708);
-            this.btnThue.Margin = new System.Windows.Forms.Padding(4);
-            this.btnThue.Name = "btnThue";
-            this.btnThue.Size = new System.Drawing.Size(188, 38);
-            this.btnThue.TabIndex = 93;
-            this.btnThue.Text = "Lưu";
+            this.btnLuu.AutoRoundedCorners = true;
+            this.btnLuu.BorderRadius = 18;
+            this.btnLuu.BorderThickness = 1;
+            this.btnLuu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLuu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLuu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLuu.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLuu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLuu.FillColor = System.Drawing.Color.White;
+            this.btnLuu.FillColor2 = System.Drawing.Color.White;
+            this.btnLuu.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnLuu.ForeColor = System.Drawing.Color.Black;
+            this.btnLuu.Location = new System.Drawing.Point(383, 708);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(188, 38);
+            this.btnLuu.TabIndex = 93;
+            this.btnLuu.Text = "Lưu";
             // 
-            // pictureBox2
+            // pictureBoxAnh2
             // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 356);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(423, 336);
-            this.pictureBox2.TabIndex = 91;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxAnh2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxAnh2.Location = new System.Drawing.Point(15, 356);
+            this.pictureBoxAnh2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxAnh2.Name = "pictureBoxAnh2";
+            this.pictureBoxAnh2.Size = new System.Drawing.Size(423, 336);
+            this.pictureBoxAnh2.TabIndex = 91;
+            this.pictureBoxAnh2.TabStop = false;
             // 
             // lblHutThuoc
             // 
@@ -155,15 +155,15 @@
             this.lblTenPhong.TabIndex = 64;
             this.lblTenPhong.Text = "Phòng Giường Đôi";
             // 
-            // pictureBox1
+            // pictureBoxAnh1
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(423, 333);
-            this.pictureBox1.TabIndex = 63;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxAnh1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxAnh1.Location = new System.Drawing.Point(15, 15);
+            this.pictureBoxAnh1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxAnh1.Name = "pictureBoxAnh1";
+            this.pictureBoxAnh1.Size = new System.Drawing.Size(423, 333);
+            this.pictureBoxAnh1.TabIndex = 63;
+            this.pictureBoxAnh1.TabStop = false;
             // 
             // label28
             // 
@@ -384,22 +384,22 @@
             this.Controls.Add(this.chkTienNghi2);
             this.Controls.Add(this.chkTienNghi1);
             this.Controls.Add(this.label28);
-            this.Controls.Add(this.btnThue);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.btnLuu);
+            this.Controls.Add(this.pictureBoxAnh2);
             this.Controls.Add(this.lblHutThuoc);
             this.Controls.Add(this.lblKichThuocPhong);
             this.Controls.Add(this.lblTrongPhongTam);
             this.Controls.Add(this.lblhuongTamNhin);
             this.Controls.Add(this.lblTienNghiPhong);
             this.Controls.Add(this.lblTenPhong);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxAnh1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ThemPhongKhachSan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ThemPhongKhachSan";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnh2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnh1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -407,15 +407,15 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2GradientButton btnThue;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private Guna.UI2.WinForms.Guna2GradientButton btnLuu;
+        private System.Windows.Forms.PictureBox pictureBoxAnh2;
         private System.Windows.Forms.Label lblHutThuoc;
         private System.Windows.Forms.Label lblKichThuocPhong;
         private System.Windows.Forms.Label lblTrongPhongTam;
         private System.Windows.Forms.Label lblhuongTamNhin;
         private System.Windows.Forms.Label lblTienNghiPhong;
         private System.Windows.Forms.Label lblTenPhong;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxAnh1;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.CheckBox chkTienNghi1;
         private System.Windows.Forms.CheckBox chkTienNghi2;

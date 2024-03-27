@@ -28,35 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlTrangChu = new System.Windows.Forms.Panel();
             this.btnDangNhap = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnDangKy = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnChoThue = new Guna.UI2.WinForms.Guna2GradientButton();
             this.cboDiaDiem = new System.Windows.Forms.ComboBox();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTenTrangChu = new System.Windows.Forms.Label();
             this.cboTienNghi = new System.Windows.Forms.ComboBox();
             this.cboLoaiPhong = new System.Windows.Forms.ComboBox();
             this.cboGiaTien = new System.Windows.Forms.ComboBox();
             this.flpTrangChu = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2.SuspendLayout();
+            this.pnlTrangChu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel2
+            // pnlTrangChu
             // 
-            this.panel2.Controls.Add(this.btnDangNhap);
-            this.panel2.Controls.Add(this.btnDangKy);
-            this.panel2.Controls.Add(this.btnChoThue);
-            this.panel2.Controls.Add(this.cboDiaDiem);
-            this.panel2.Controls.Add(this.btnTimKiem);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.cboTienNghi);
-            this.panel2.Controls.Add(this.cboLoaiPhong);
-            this.panel2.Controls.Add(this.cboGiaTien);
-            this.panel2.Location = new System.Drawing.Point(0, 1);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1451, 147);
-            this.panel2.TabIndex = 2;
+            this.pnlTrangChu.Controls.Add(this.btnDangNhap);
+            this.pnlTrangChu.Controls.Add(this.btnDangKy);
+            this.pnlTrangChu.Controls.Add(this.btnChoThue);
+            this.pnlTrangChu.Controls.Add(this.cboDiaDiem);
+            this.pnlTrangChu.Controls.Add(this.btnTimKiem);
+            this.pnlTrangChu.Controls.Add(this.lblTenTrangChu);
+            this.pnlTrangChu.Controls.Add(this.cboTienNghi);
+            this.pnlTrangChu.Controls.Add(this.cboLoaiPhong);
+            this.pnlTrangChu.Controls.Add(this.cboGiaTien);
+            this.pnlTrangChu.Location = new System.Drawing.Point(0, 1);
+            this.pnlTrangChu.Name = "pnlTrangChu";
+            this.pnlTrangChu.Size = new System.Drawing.Size(1451, 147);
+            this.pnlTrangChu.TabIndex = 2;
             // 
             // btnDangNhap
             // 
@@ -161,19 +161,18 @@
             this.btnTimKiem.Size = new System.Drawing.Size(125, 40);
             this.btnTimKiem.TabIndex = 11;
             this.btnTimKiem.Text = "Tìm kiếm";
-        
             // 
-            // label1
+            // lblTenTrangChu
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("NSimSun", 34.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(19, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 58);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Travel\r\n";
+            this.lblTenTrangChu.AutoSize = true;
+            this.lblTenTrangChu.BackColor = System.Drawing.Color.Transparent;
+            this.lblTenTrangChu.Font = new System.Drawing.Font("NSimSun", 34.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenTrangChu.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lblTenTrangChu.Location = new System.Drawing.Point(19, 34);
+            this.lblTenTrangChu.Name = "lblTenTrangChu";
+            this.lblTenTrangChu.Size = new System.Drawing.Size(205, 58);
+            this.lblTenTrangChu.TabIndex = 15;
+            this.lblTenTrangChu.Text = "Travel\r\n";
             // 
             // cboTienNghi
             // 
@@ -237,25 +236,25 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1454, 596);
             this.Controls.Add(this.flpTrangChu);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlTrangChu);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang Chu";
             this.Load += new System.EventHandler(this.TrangChu_Load);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlTrangChu.ResumeLayout(false);
+            this.pnlTrangChu.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlTrangChu;
         private Guna.UI2.WinForms.Guna2GradientButton btnChoThue;
         private System.Windows.Forms.ComboBox cboDiaDiem;
         private Guna.UI2.WinForms.Guna2GradientButton btnTimKiem;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTenTrangChu;
         private System.Windows.Forms.ComboBox cboTienNghi;
         private System.Windows.Forms.ComboBox cboLoaiPhong;
         private System.Windows.Forms.ComboBox cboGiaTien;
