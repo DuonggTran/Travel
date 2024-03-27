@@ -52,26 +52,7 @@ namespace GUI
                 pic_Anh4.Image = Image.FromFile(opf.FileName);
             }
         }
-        DataConnection db = new DataConnection();
-        private void btnDangBai_Click(object sender, EventArgs e)
-        {
-            db.DangBai(txtTenKhachSan.Text, cboDiaDiem.Text, cboLoaiPhong.Text, cboPhuongTien.Text, cboGiaTien.Text, cboTienIch.Text, cboTienNghi.Text, cboAnUong.Text, txtMoTa.Text, pic_Anh1.Image, pic_Anh2.Image, pic_Anh3.Image, pic_Anh4.Image);
-            txtTenKhachSan.ResetText();
-            cboDiaDiem.ResetText();
-            cboLoaiPhong.ResetText();
-            cboPhuongTien.ResetText();
-            cboGiaTien.ResetText();
-            cboTienIch.ResetText();
-            cboTienNghi.ResetText();
-            cboAnUong.ResetText();
-            txtMoTa.ResetText();
-            pic_Anh1.Image = null;
-            pic_Anh2.Image = null;
-            pic_Anh3.Image = null;
-            pic_Anh4.Image = null;
-            MessageBox.Show("Đăng Bài Thành Công");
-        }
-
+        DataConnection db = new DataConnection();      
         private void btnThemPhong_Click(object sender, EventArgs e)
         {
             this.Close();

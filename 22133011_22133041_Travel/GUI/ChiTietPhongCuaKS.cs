@@ -17,7 +17,6 @@ namespace GUI
         {
             InitializeComponent();
         }
-
         private void btnThue_Click(object sender, EventArgs e)
         {
             this.Hide();

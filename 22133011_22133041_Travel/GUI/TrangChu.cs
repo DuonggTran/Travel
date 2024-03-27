@@ -18,26 +18,7 @@ namespace GUI
         public TrangChu()
         {
             InitializeComponent();
-        }
-        private void btnTimKiem_Click(object sender, EventArgs e)
-        {
-            flpTrangChu.Controls.Clear();
-            SqlConnection connection = new SqlConnection(Properties.Settings.Default.cnnStr);
-            connection.Open();
-            string selectedDiaDiem = cboDiaDiem.Text;
-            string query = "SELECT DISTINCT DiaDiem FROM ThongTinPhong WHERE DiaDiem = @DiaDiem";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@DiaDiem", selectedDiaDiem);
-            SqlDataReader reader = command.ExecuteReader();
-            UCThongTinPhong f = new UCThongTinPhong();
-            while (reader.Read())
-            {
-                string diaDiem = reader["DiaDiem"].ToString();
-                f.loadData(flpTrangChu, diaDiem);
-                break;
-            }
-            connection.Close();
-        }
+        }       
         private void btnDangKy_Click(object sender, EventArgs e)
         {
             DangKy f = new DangKy();

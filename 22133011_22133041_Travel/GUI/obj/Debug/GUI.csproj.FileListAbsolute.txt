@@ -81,7 +81,6 @@ D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DangNhap.resourc
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.DanhGia.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.TrangChu.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.Properties.Resources.resources
-D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.TrangChuKhachSan.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCDanhGia.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCPhongCuaKS.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCThongTinPhong.resources
