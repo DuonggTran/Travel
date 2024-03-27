@@ -41,7 +41,7 @@ namespace GUI
                 {
                     UCThongTinPhong uc = new UCThongTinPhong();
                     uc.txtTenKhachSan.Text = reader[0].ToString();
-                    uc.txtGiaTien.Text = reader[1].ToString();
+                    uc.txtDiaDiem.Text = reader[1].ToString();
                     uc.DiaDiem = reader[2].ToString(); // Gán giá trị cho thuộc tính DiaDiem
                     uc.LoaiPhong = reader[3].ToString();
                     uc.PhuongTien = reader[4].ToString();
@@ -68,7 +68,7 @@ namespace GUI
         {           
             ChiTietPhong chiTietPhongForm = new ChiTietPhong();
             chiTietPhongForm.TenKhachSan = txtTenKhachSan.Text;
-            chiTietPhongForm.GiaTien = txtGiaTien.Text;
+            chiTietPhongForm.GiaTien = txtDiaDiem.Text;
             chiTietPhongForm.DiaDiem = DiaDiem; 
             chiTietPhongForm.LoaiPhong = LoaiPhong;
             chiTietPhongForm.PhuongTien = PhuongTien;

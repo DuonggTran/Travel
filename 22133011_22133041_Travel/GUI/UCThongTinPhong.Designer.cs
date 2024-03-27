@@ -28,27 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBoxHinhAnh = new System.Windows.Forms.PictureBox();
             this.btnChiTiet = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtGiaTien = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtDiaDiem = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtTenKhachSan = new Guna.UI2.WinForms.Guna2TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHinhAnh)).BeginInit();
+            this.pictureBoxHinhAnh = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHinhAnh)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBoxHinhAnh
-            // 
-            this.pictureBoxHinhAnh.BackColor = System.Drawing.Color.White;
-            this.pictureBoxHinhAnh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxHinhAnh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxHinhAnh.Image = global::GUI.Properties.Resources._42c98447061cab42f20d;
-            this.pictureBoxHinhAnh.Location = new System.Drawing.Point(-1, -1);
-            this.pictureBoxHinhAnh.Name = "pictureBoxHinhAnh";
-            this.pictureBoxHinhAnh.Size = new System.Drawing.Size(204, 211);
-            this.pictureBoxHinhAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxHinhAnh.TabIndex = 0;
-            this.pictureBoxHinhAnh.TabStop = false;
             // 
             // btnChiTiet
             // 
@@ -74,7 +61,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.txtGiaTien);
+            this.panel1.Controls.Add(this.txtDiaDiem);
             this.panel1.Controls.Add(this.txtTenKhachSan);
             this.panel1.Controls.Add(this.pictureBoxHinhAnh);
             this.panel1.Controls.Add(this.btnChiTiet);
@@ -83,32 +70,32 @@
             this.panel1.Size = new System.Drawing.Size(469, 209);
             this.panel1.TabIndex = 4;
             // 
-            // txtGiaTien
+            // txtDiaDiem
             // 
-            this.txtGiaTien.Animated = true;
-            this.txtGiaTien.AutoRoundedCorners = true;
-            this.txtGiaTien.BorderColor = System.Drawing.Color.Black;
-            this.txtGiaTien.BorderRadius = 26;
-            this.txtGiaTien.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtGiaTien.DefaultText = "Giá Tiền";
-            this.txtGiaTien.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtGiaTien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtGiaTien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtGiaTien.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtGiaTien.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaTien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGiaTien.ForeColor = System.Drawing.Color.Black;
-            this.txtGiaTien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaTien.Location = new System.Drawing.Point(209, 85);
-            this.txtGiaTien.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txtGiaTien.Name = "txtGiaTien";
-            this.txtGiaTien.PasswordChar = '\0';
-            this.txtGiaTien.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.txtGiaTien.PlaceholderText = "";
-            this.txtGiaTien.ReadOnly = true;
-            this.txtGiaTien.SelectedText = "";
-            this.txtGiaTien.Size = new System.Drawing.Size(191, 55);
-            this.txtGiaTien.TabIndex = 5;
+            this.txtDiaDiem.Animated = true;
+            this.txtDiaDiem.AutoRoundedCorners = true;
+            this.txtDiaDiem.BorderColor = System.Drawing.Color.Black;
+            this.txtDiaDiem.BorderRadius = 26;
+            this.txtDiaDiem.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDiaDiem.DefaultText = "Địa điểm";
+            this.txtDiaDiem.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtDiaDiem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtDiaDiem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDiaDiem.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDiaDiem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDiaDiem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaDiem.ForeColor = System.Drawing.Color.Black;
+            this.txtDiaDiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDiaDiem.Location = new System.Drawing.Point(209, 85);
+            this.txtDiaDiem.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txtDiaDiem.Name = "txtDiaDiem";
+            this.txtDiaDiem.PasswordChar = '\0';
+            this.txtDiaDiem.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtDiaDiem.PlaceholderText = "";
+            this.txtDiaDiem.ReadOnly = true;
+            this.txtDiaDiem.SelectedText = "";
+            this.txtDiaDiem.Size = new System.Drawing.Size(191, 55);
+            this.txtDiaDiem.TabIndex = 5;
             // 
             // txtTenKhachSan
             // 
@@ -137,6 +124,19 @@
             this.txtTenKhachSan.Size = new System.Drawing.Size(255, 55);
             this.txtTenKhachSan.TabIndex = 4;
             // 
+            // pictureBoxHinhAnh
+            // 
+            this.pictureBoxHinhAnh.BackColor = System.Drawing.Color.White;
+            this.pictureBoxHinhAnh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxHinhAnh.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxHinhAnh.Image = global::GUI.Properties.Resources._42c98447061cab42f20d;
+            this.pictureBoxHinhAnh.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBoxHinhAnh.Name = "pictureBoxHinhAnh";
+            this.pictureBoxHinhAnh.Size = new System.Drawing.Size(204, 211);
+            this.pictureBoxHinhAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxHinhAnh.TabIndex = 0;
+            this.pictureBoxHinhAnh.TabStop = false;
+            // 
             // UCThongTinPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -145,8 +145,8 @@
             this.Controls.Add(this.panel1);
             this.Name = "UCThongTinPhong";
             this.Size = new System.Drawing.Size(476, 217);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHinhAnh)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHinhAnh)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -156,7 +156,7 @@
         private System.Windows.Forms.PictureBox pictureBoxHinhAnh;
         private Guna.UI2.WinForms.Guna2GradientButton btnChiTiet;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2TextBox txtGiaTien;
+        private Guna.UI2.WinForms.Guna2TextBox txtDiaDiem;
         private Guna.UI2.WinForms.Guna2TextBox txtTenKhachSan;
     }
 }

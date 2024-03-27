@@ -58,6 +58,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnThue = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -359,11 +360,33 @@
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             // 
+            // btnThue
+            // 
+            this.btnThue.AutoRoundedCorners = true;
+            this.btnThue.BorderRadius = 21;
+            this.btnThue.BorderThickness = 1;
+            this.btnThue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThue.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThue.FillColor = System.Drawing.Color.White;
+            this.btnThue.FillColor2 = System.Drawing.Color.White;
+            this.btnThue.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.btnThue.ForeColor = System.Drawing.Color.Black;
+            this.btnThue.Location = new System.Drawing.Point(315, 718);
+            this.btnThue.Name = "btnThue";
+            this.btnThue.Size = new System.Drawing.Size(180, 45);
+            this.btnThue.TabIndex = 62;
+            this.btnThue.Text = "Thuê Phòng";
+            this.btnThue.Click += new System.EventHandler(this.btnThue_Click);
+            // 
             // ChiTietPhongCuaKS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 732);
+            this.ClientSize = new System.Drawing.Size(809, 775);
+            this.Controls.Add(this.btnThue);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label27);
@@ -395,6 +418,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "ChiTietPhongCuaKS";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChiTietPhongCuaKS";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -435,5 +459,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2GradientButton btnThue;
     }
 }

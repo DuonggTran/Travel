@@ -71,5 +71,12 @@ namespace GUI
             pic_Anh4.Image = null;
             MessageBox.Show("Đăng Bài Thành Công");
         }
+
+        private void btnThemPhong_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ThemPhongKhachSan f = new ThemPhongKhachSan();
+            f.ShowDialog();
+        }
     }
 }

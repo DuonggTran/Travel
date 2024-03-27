@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class TrangChuKhachSan : Form
+    public partial class XemPhongCuaKhachSan : Form
     {
-        public TrangChuKhachSan()
+        public XemPhongCuaKhachSan()
         {
             InitializeComponent();
         }

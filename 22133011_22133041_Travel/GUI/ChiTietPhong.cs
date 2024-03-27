@@ -37,19 +37,20 @@ namespace GUI
             txtTienNghi.Text = TienNghi;
             txtAnUong.Text = AnUong;
             richTextBoxMoTa.Text = MoTa;        
-        }
-        private void btnThue_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            ChiTietKhachHang f = new ChiTietKhachHang();
-            f.ShowDialog();
-            f = null;
-            this.Close();
-        }
+        }   
         private void linklbDanhGia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
             DanhGia f = new DanhGia();
+            f.ShowDialog();
+            f = null;
+            this.Close();
+        }
+
+        private void btnXemPhongTrong_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            XemPhongCuaKhachSan f = new XemPhongCuaKhachSan();
             f.ShowDialog();
             f = null;
             this.Close();

@@ -16,5 +16,12 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void lbChiTietPhong_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            ChiTietPhongCuaKS f = new ChiTietPhongCuaKS();
+            f.ShowDialog();                    
+        }
     }
 }

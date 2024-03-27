@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lbChiTietPhong = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,17 +41,18 @@
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // linkLabel1
+            // lbChiTietPhong
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Blue;
-            this.linkLabel1.Location = new System.Drawing.Point(15, 23);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(169, 25);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Phòng \"ABCDEF\"";
+            this.lbChiTietPhong.AutoSize = true;
+            this.lbChiTietPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbChiTietPhong.LinkColor = System.Drawing.Color.Blue;
+            this.lbChiTietPhong.Location = new System.Drawing.Point(15, 23);
+            this.lbChiTietPhong.Name = "lbChiTietPhong";
+            this.lbChiTietPhong.Size = new System.Drawing.Size(169, 25);
+            this.lbChiTietPhong.TabIndex = 0;
+            this.lbChiTietPhong.TabStop = true;
+            this.lbChiTietPhong.Text = "Phòng \"ABCDEF\"";
+            this.lbChiTietPhong.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbChiTietPhong_LinkClicked);
             // 
             // label1
             // 
@@ -130,7 +131,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.lbChiTietPhong);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "UCPhongCuaKS";
@@ -147,7 +148,7 @@
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lbChiTietPhong;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
