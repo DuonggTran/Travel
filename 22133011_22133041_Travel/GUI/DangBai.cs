@@ -64,10 +64,9 @@ namespace GUI
         }
         private void btnDangBai_Click(object sender, EventArgs e)
         {
-            ThongTinKhachSan kSan = new ThongTinKhachSan(txtTenKhachSan.Text, cboDiaDiem.Text, cboLoaiPhong.Text, txtMoTa.Text, null, null, null, null);
-            {
-                kSanDAO.Them(kSan, dB);
-            }
+            ThongTinKhachSan kSan = new ThongTinKhachSan(txtTenKhachSan.Text, cboDiaDiem.Text, cboLoaiPhong.Text, txtMoTa.Text, null, null, null, null);           
+            kSanDAO.Them(kSan, dB);
+            
         }
     }
 }

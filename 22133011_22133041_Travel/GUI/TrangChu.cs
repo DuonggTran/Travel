@@ -15,6 +15,9 @@ namespace GUI
 {
     public partial class TrangChu : Form
     {
+        SqlConnection cnnStr = new SqlConnection(Properties.Settings.Default.cnnStr);
+        ThongTinKhachSanDAO kSanDAO = new ThongTinKhachSanDAO();
+        DataConnection dB = new DataConnection();
         public TrangChu()
         {
             InitializeComponent();
@@ -55,6 +58,25 @@ namespace GUI
         {
             DangNhap f = new DangNhap();
             f.ShowDialog();
+        }
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            flpTrangChu.Controls.Clear();
+            SqlConnection connection = new SqlConnection(Properties.Settings.Default.cnnStr);
+            connection.Open();
+            string selectedDiaDiem = cboDiaDiem.Text;
+            string query = "SELECT DISTINCT DiaDiemKhachSan FROM ThongTinKhachSan WHERE DiaDiemKhachSan = @DiaDiemKhachSan";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@DiaDiemKhachSan", selectedDiaDiem);
+            SqlDataReader reader = command.ExecuteReader();
+            UCThongTinPhong f = new UCThongTinPhong();
+            while (reader.Read())
+            {
+                string diaDiem = reader["DiaDiemKhachSan"].ToString();
+                f.LoadDataTimKiem(flpTrangChu, diaDiem);           
+                break;
+            }
+            connection.Close();                       
         }
     }
 }

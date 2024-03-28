@@ -211,7 +211,7 @@
             this.Name = "ChiTietPhong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChiTietPhong";
-            this.Load += new System.EventHandler(this.ChiTietPhong_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiaDiem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -222,7 +222,6 @@
             this.PerformLayout();
 
         }
-
         #endregion
         private System.Windows.Forms.Label txtTenKhachSan;
         private System.Windows.Forms.PictureBox pictureBox4;

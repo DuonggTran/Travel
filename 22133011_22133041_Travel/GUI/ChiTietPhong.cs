@@ -12,15 +12,19 @@ using System.Windows.Forms;
 namespace GUI
 {
     public partial class ChiTietPhong : Form
-    {      
+    {    
         public ChiTietPhong()
         {
             InitializeComponent();
         }
-        private void ChiTietPhong_Load(object sender, EventArgs e)
-        {           
-                  
-        }   
+        public ChiTietPhong(ThongTinKhachSan kSan)
+        {
+            InitializeComponent();
+            txtTenKhachSan.Text = kSan.TenKhachSan;
+            txtDiaDiem.Text = kSan.DiaDiemKhachSan;
+            txtLoaiPhong.Text = kSan.Loai;
+            richTextBoxMoTa.Text = kSan.MoTa;
+        }  
         private void linklbDanhGia_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {          
             DanhGia f = new DanhGia();
@@ -30,6 +34,6 @@ namespace GUI
         {           
             XemPhongCuaKhachSan f = new XemPhongCuaKhachSan();
             f.ShowDialog();          
-        }
+        }      
     }
 }
