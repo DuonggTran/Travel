@@ -114,6 +114,8 @@
     <Compile Include="ThemPhongKhachSan.Designer.cs">
       <DependentUpon>ThemPhongKhachSan.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinKhachSan.cs" />
+    <Compile Include="ThongTinPhongCuaKhachSan.cs" />
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -56,9 +56,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Location = new System.Drawing.Point(2, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(794, 144);
+            this.panel1.Size = new System.Drawing.Size(794, 143);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -177,14 +177,17 @@
             this.ucPhongCuaKS2.Size = new System.Drawing.Size(791, 148);
             this.ucPhongCuaKS2.TabIndex = 4;
             // 
-            // TrangChuKhachSan
+            // XemPhongCuaKhachSan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(801, 776);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Name = "TrangChuKhachSan";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "XemPhongCuaKhachSan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChuKhachSan";
             this.panel1.ResumeLayout(false);
