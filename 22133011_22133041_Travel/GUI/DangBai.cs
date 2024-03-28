@@ -56,7 +56,6 @@ namespace GUI
                 pic_Anh4.Image = Image.FromFile(opf.FileName);
             }
         }
-        DataConnection db = new DataConnection();      
         private void btnThemPhong_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -67,7 +66,7 @@ namespace GUI
         {
             ThongTinKhachSan kSan = new ThongTinKhachSan(txtTenKhachSan.Text, cboDiaDiem.Text, cboLoaiPhong.Text, txtMoTa.Text, null, null, null, null);
             {
-                kSanDAO.Them(kSan, db);
+                kSanDAO.Them(kSan, dB);
             }
         }
     }
