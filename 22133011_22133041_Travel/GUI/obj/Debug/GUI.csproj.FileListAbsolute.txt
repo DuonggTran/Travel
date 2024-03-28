@@ -64,7 +64,6 @@ D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Tra
 D:\HK2\DoAnCuoiKiWindows\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietAnh.resources
 D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietAnh.resources
 D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ChiTietPhongCuaKS.resources
-D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.TrangChuKhachSan.resources
 D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.UCPhongCuaKS.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\bin\Debug\GUI.exe.config
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\bin\Debug\GUI.exe
@@ -92,3 +91,5 @@ D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.exe
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.pdb
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ThemPhongKhachSan.resources
 D:\HK2\CuoiKi\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.XemPhongCuaKhachSan.resources
+D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.ThemPhongKhachSan.resources
+D:\Học Thiệt\Lập trình Windows\Do An Cuoi Ky\Travel\22133011_22133041_Travel\GUI\obj\Debug\GUI.XemPhongCuaKhachSan.resources

@@ -16,5 +16,9 @@ namespace GUI
         {
             InitializeComponent();
         }
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

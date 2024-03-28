@@ -11,15 +11,24 @@ namespace GUI
 {
     internal class DataConnection
     {
-        public SqlConnection cnnStr = new SqlConnection(Properties.Settings.Default.cnnStr);
-        
-        public void DangBai(string TenKhachSan, string DiaDiem, string LoaiPhong, string PhuongTien, string GiaTien, string TienIch, string TienNghi, string AnUong, string MoTa, Image HinhAnh1, Image HinhAnh2, Image HinhAnh3, Image HinhAnh4) 
+        SqlConnection cnnStr = new SqlConnection(Properties.Settings.Default.cnnStr);
+        public void ThucThi(string sqltStr)
         {
-            cnnStr.Open();
-            string sql = "Insert into ThongTinPhong(TenKhachSan, DiaDiem, LoaiPhong, PhuongTien, GiaTien, TienIch, TienNghi, AnUong, MoTa, HinhAnh1, HinhAnh2, HinhAnh3, HinhAnh4) values (N'"+TenKhachSan+ "',N'"+DiaDiem+ "',N'"+LoaiPhong+ "',N'"+PhuongTien+ "',N'"+GiaTien+ "',N'"+TienIch+ "',N'"+TienNghi+ "',N'"+AnUong+ "',N'"+MoTa+"','" + HinhAnh1+ "','"+HinhAnh2+ "','"+HinhAnh3+ "','"+HinhAnh4+"')";
-            SqlCommand cmd = new SqlCommand(sql,cnnStr);
-            cmd.ExecuteNonQuery();
-            cnnStr.Close();
+            try
+            {
+                cnnStr.Open();
+                SqlCommand cmd = new SqlCommand(sqltStr, cnnStr);
+                if (cmd.ExecuteNonQuery() > 0)
+                    MessageBox.Show("Thành Công", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Thất Bại" + ex);
+            }
+            finally
+            {
+                cnnStr.Close();
+            }
         }
     }
 }

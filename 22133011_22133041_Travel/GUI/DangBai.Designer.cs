@@ -165,6 +165,7 @@
             this.btnDangBai.Size = new System.Drawing.Size(180, 45);
             this.btnDangBai.TabIndex = 69;
             this.btnDangBai.Text = "Đăng Bài";
+            this.btnDangBai.Click += new System.EventHandler(this.btnDangBai_Click);
             // 
             // txtTenKhachSan
             // 

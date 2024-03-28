@@ -352,13 +352,9 @@
             this.Controls.Add(this.lblHuongTamNhin);
             this.Controls.Add(this.lblTienNghiPhong);
             this.Controls.Add(this.lblTenPhong);
-<<<<<<< HEAD
-            this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-=======
             this.Controls.Add(this.pictureBoxAnh1);
->>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
             this.Name = "ChiTietPhongCuaKS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChiTietPhongCuaKS";

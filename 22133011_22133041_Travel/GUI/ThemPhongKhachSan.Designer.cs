@@ -78,6 +78,7 @@
             this.btnLuu.Size = new System.Drawing.Size(188, 38);
             this.btnLuu.TabIndex = 93;
             this.btnLuu.Text = "Lưu";
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // pictureBoxAnh2
             // 

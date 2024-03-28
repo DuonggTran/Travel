@@ -38,9 +38,9 @@
             this.lblNgayNhanPhong = new System.Windows.Forms.Label();
             this.lblPhong = new System.Windows.Forms.Label();
             this.flpTrangChuKhachSan = new System.Windows.Forms.FlowLayoutPanel();
+            this.ucPhongCuaKS2 = new GUI.UCPhongCuaKS();
             this.ucPhongCuaKS3 = new GUI.UCPhongCuaKS();
             this.ucPhongCuaKS4 = new GUI.UCPhongCuaKS();
-            this.ucPhongCuaKS2 = new GUI.UCPhongCuaKS();
             this.ucPhongCuaKS1 = new GUI.UCPhongCuaKS();
             this.pnlTienDe.SuspendLayout();
             this.flpTrangChuKhachSan.SuspendLayout();
@@ -48,20 +48,6 @@
             // 
             // pnlTienDe
             // 
-<<<<<<< HEAD
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(2, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(794, 143);
-            this.panel1.TabIndex = 0;
-=======
             this.pnlTienDe.Controls.Add(this.btnTimKiem);
             this.pnlTienDe.Controls.Add(this.cboLuongKhach);
             this.pnlTienDe.Controls.Add(this.dateTimePickerNgayTra);
@@ -74,7 +60,6 @@
             this.pnlTienDe.Name = "pnlTienDe";
             this.pnlTienDe.Size = new System.Drawing.Size(794, 144);
             this.pnlTienDe.TabIndex = 0;
->>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
             // 
             // btnTimKiem
             // 
@@ -156,6 +141,15 @@
             this.flpTrangChuKhachSan.Size = new System.Drawing.Size(794, 621);
             this.flpTrangChuKhachSan.TabIndex = 1;
             // 
+            // ucPhongCuaKS2
+            // 
+            this.ucPhongCuaKS2.BackColor = System.Drawing.Color.White;
+            this.ucPhongCuaKS2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucPhongCuaKS2.Location = new System.Drawing.Point(3, 3);
+            this.ucPhongCuaKS2.Name = "ucPhongCuaKS2";
+            this.ucPhongCuaKS2.Size = new System.Drawing.Size(791, 148);
+            this.ucPhongCuaKS2.TabIndex = 4;
+            // 
             // ucPhongCuaKS3
             // 
             this.ucPhongCuaKS3.BackColor = System.Drawing.Color.White;
@@ -174,17 +168,6 @@
             this.ucPhongCuaKS4.Size = new System.Drawing.Size(791, 152);
             this.ucPhongCuaKS4.TabIndex = 3;
             // 
-            // ucPhongCuaKS2
-            // 
-            this.ucPhongCuaKS2.BackColor = System.Drawing.Color.White;
-            this.ucPhongCuaKS2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucPhongCuaKS2.Location = new System.Drawing.Point(3, 3);
-            this.ucPhongCuaKS2.Name = "ucPhongCuaKS2";
-            this.ucPhongCuaKS2.Size = new System.Drawing.Size(791, 148);
-            this.ucPhongCuaKS2.TabIndex = 4;
-            // 
-<<<<<<< HEAD
-=======
             // ucPhongCuaKS1
             // 
             this.ucPhongCuaKS1.BackColor = System.Drawing.Color.White;
@@ -194,22 +177,16 @@
             this.ucPhongCuaKS1.Size = new System.Drawing.Size(791, 148);
             this.ucPhongCuaKS1.TabIndex = 5;
             // 
->>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
             // XemPhongCuaKhachSan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(801, 776);
-<<<<<<< HEAD
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-=======
             this.Controls.Add(this.pnlTienDe);
             this.Controls.Add(this.flpTrangChuKhachSan);
->>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "XemPhongCuaKhachSan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChuKhachSan";

@@ -115,7 +115,9 @@
       <DependentUpon>ThemPhongKhachSan.cs</DependentUpon>
     </Compile>
     <Compile Include="ThongTinKhachSan.cs" />
+    <Compile Include="ThongTinKhachSanDAO.cs" />
     <Compile Include="ThongTinPhongCuaKhachSan.cs" />
+    <Compile Include="ThongTinPhongCuaKhachSanDAO.cs" />
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
