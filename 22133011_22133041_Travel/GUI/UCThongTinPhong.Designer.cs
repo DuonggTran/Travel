@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.btnChiTiet = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnl = new System.Windows.Forms.Panel();
             this.txtDiaDiem = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtTenKhachSan = new Guna.UI2.WinForms.Guna2TextBox();
             this.pictureBoxHinhAnh = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHinhAnh)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,17 +58,17 @@
             this.btnChiTiet.Text = "Chi tiết";
             this.btnChiTiet.Click += new System.EventHandler(this.btnChiTiet_Click);
             // 
-            // panel1
+            // pnl
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.txtDiaDiem);
-            this.panel1.Controls.Add(this.txtTenKhachSan);
-            this.panel1.Controls.Add(this.pictureBoxHinhAnh);
-            this.panel1.Controls.Add(this.btnChiTiet);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(469, 209);
-            this.panel1.TabIndex = 4;
+            this.pnl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl.Controls.Add(this.txtDiaDiem);
+            this.pnl.Controls.Add(this.txtTenKhachSan);
+            this.pnl.Controls.Add(this.pictureBoxHinhAnh);
+            this.pnl.Controls.Add(this.btnChiTiet);
+            this.pnl.Location = new System.Drawing.Point(3, 3);
+            this.pnl.Name = "pnl";
+            this.pnl.Size = new System.Drawing.Size(470, 209);
+            this.pnl.TabIndex = 4;
             // 
             // txtDiaDiem
             // 
@@ -142,10 +142,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnl);
             this.Name = "UCThongTinPhong";
             this.Size = new System.Drawing.Size(476, 217);
-            this.panel1.ResumeLayout(false);
+            this.pnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHinhAnh)).EndInit();
             this.ResumeLayout(false);
 
@@ -155,7 +155,7 @@
 
         private System.Windows.Forms.PictureBox pictureBoxHinhAnh;
         private Guna.UI2.WinForms.Guna2GradientButton btnChiTiet;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnl;
         private Guna.UI2.WinForms.Guna2TextBox txtDiaDiem;
         private Guna.UI2.WinForms.Guna2TextBox txtTenKhachSan;
     }

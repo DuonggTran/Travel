@@ -28,26 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlTienDe = new System.Windows.Forms.Panel();
+            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.cboLuongKhach = new System.Windows.Forms.ComboBox();
+            this.dateTimePickerNgayTra = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerNgayNhan = new System.Windows.Forms.DateTimePicker();
+            this.lblLuongKhach = new System.Windows.Forms.Label();
+            this.lblNgayTraPhong = new System.Windows.Forms.Label();
+            this.lblNgayNhanPhong = new System.Windows.Forms.Label();
+            this.lblPhong = new System.Windows.Forms.Label();
+            this.flpTrangChuKhachSan = new System.Windows.Forms.FlowLayoutPanel();
             this.ucPhongCuaKS3 = new GUI.UCPhongCuaKS();
             this.ucPhongCuaKS4 = new GUI.UCPhongCuaKS();
-            this.ucPhongCuaKS1 = new GUI.UCPhongCuaKS();
             this.ucPhongCuaKS2 = new GUI.UCPhongCuaKS();
-            this.panel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.ucPhongCuaKS1 = new GUI.UCPhongCuaKS();
+            this.pnlTienDe.SuspendLayout();
+            this.flpTrangChuKhachSan.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlTienDe
             // 
+<<<<<<< HEAD
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.dateTimePicker2);
@@ -60,92 +61,106 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(794, 143);
             this.panel1.TabIndex = 0;
+=======
+            this.pnlTienDe.Controls.Add(this.btnTimKiem);
+            this.pnlTienDe.Controls.Add(this.cboLuongKhach);
+            this.pnlTienDe.Controls.Add(this.dateTimePickerNgayTra);
+            this.pnlTienDe.Controls.Add(this.dateTimePickerNgayNhan);
+            this.pnlTienDe.Controls.Add(this.lblLuongKhach);
+            this.pnlTienDe.Controls.Add(this.lblNgayTraPhong);
+            this.pnlTienDe.Controls.Add(this.lblNgayNhanPhong);
+            this.pnlTienDe.Controls.Add(this.lblPhong);
+            this.pnlTienDe.Location = new System.Drawing.Point(2, 2);
+            this.pnlTienDe.Name = "pnlTienDe";
+            this.pnlTienDe.Size = new System.Drawing.Size(794, 144);
+            this.pnlTienDe.TabIndex = 0;
+>>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
             // 
-            // button1
+            // btnTimKiem
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(679, 59);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 52);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.Location = new System.Drawing.Point(679, 59);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(108, 52);
+            this.btnTimKiem.TabIndex = 12;
+            this.btnTimKiem.Text = "Tìm kiếm";
+            this.btnTimKiem.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cboLuongKhach
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(535, 87);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 11;
+            this.cboLuongKhach.FormattingEnabled = true;
+            this.cboLuongKhach.Location = new System.Drawing.Point(535, 87);
+            this.cboLuongKhach.Name = "cboLuongKhach";
+            this.cboLuongKhach.Size = new System.Drawing.Size(121, 24);
+            this.cboLuongKhach.TabIndex = 11;
             // 
-            // dateTimePicker2
+            // dateTimePickerNgayTra
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(276, 89);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(245, 22);
-            this.dateTimePicker2.TabIndex = 10;
+            this.dateTimePickerNgayTra.Location = new System.Drawing.Point(276, 89);
+            this.dateTimePickerNgayTra.Name = "dateTimePickerNgayTra";
+            this.dateTimePickerNgayTra.Size = new System.Drawing.Size(245, 22);
+            this.dateTimePickerNgayTra.TabIndex = 10;
             // 
-            // dateTimePicker1
+            // dateTimePickerNgayNhan
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(13, 89);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(245, 22);
-            this.dateTimePicker1.TabIndex = 9;
+            this.dateTimePickerNgayNhan.Location = new System.Drawing.Point(13, 89);
+            this.dateTimePickerNgayNhan.Name = "dateTimePickerNgayNhan";
+            this.dateTimePickerNgayNhan.Size = new System.Drawing.Size(245, 22);
+            this.dateTimePickerNgayNhan.TabIndex = 9;
             // 
-            // label4
+            // lblLuongKhach
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(532, 59);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 16);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Số Lượng Khách";
+            this.lblLuongKhach.AutoSize = true;
+            this.lblLuongKhach.Location = new System.Drawing.Point(532, 59);
+            this.lblLuongKhach.Name = "lblLuongKhach";
+            this.lblLuongKhach.Size = new System.Drawing.Size(104, 16);
+            this.lblLuongKhach.TabIndex = 8;
+            this.lblLuongKhach.Text = "Số Lượng Khách";
             // 
-            // label3
+            // lblNgayTraPhong
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(273, 59);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Ngày trả phòng";
+            this.lblNgayTraPhong.AutoSize = true;
+            this.lblNgayTraPhong.Location = new System.Drawing.Point(273, 59);
+            this.lblNgayTraPhong.Name = "lblNgayTraPhong";
+            this.lblNgayTraPhong.Size = new System.Drawing.Size(99, 16);
+            this.lblNgayTraPhong.TabIndex = 6;
+            this.lblNgayTraPhong.Text = "Ngày trả phòng";
             // 
-            // label2
+            // lblNgayNhanPhong
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 59);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 16);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Ngày nhận phòng";
+            this.lblNgayNhanPhong.AutoSize = true;
+            this.lblNgayNhanPhong.Location = new System.Drawing.Point(10, 59);
+            this.lblNgayNhanPhong.Name = "lblNgayNhanPhong";
+            this.lblNgayNhanPhong.Size = new System.Drawing.Size(113, 16);
+            this.lblNgayNhanPhong.TabIndex = 5;
+            this.lblNgayNhanPhong.Text = "Ngày nhận phòng";
             // 
-            // label1
+            // lblPhong
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Phòng trống";
+            this.lblPhong.AutoSize = true;
+            this.lblPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhong.Location = new System.Drawing.Point(10, 6);
+            this.lblPhong.Name = "lblPhong";
+            this.lblPhong.Size = new System.Drawing.Size(169, 32);
+            this.lblPhong.TabIndex = 0;
+            this.lblPhong.Text = "Phòng trống";
             // 
-            // flowLayoutPanel1
+            // flpTrangChuKhachSan
             // 
-            this.flowLayoutPanel1.Controls.Add(this.ucPhongCuaKS3);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhongCuaKS4);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhongCuaKS1);
-            this.flowLayoutPanel1.Controls.Add(this.ucPhongCuaKS2);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 152);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(794, 621);
-            this.flowLayoutPanel1.TabIndex = 1;
+            this.flpTrangChuKhachSan.Controls.Add(this.ucPhongCuaKS2);
+            this.flpTrangChuKhachSan.Controls.Add(this.ucPhongCuaKS3);
+            this.flpTrangChuKhachSan.Controls.Add(this.ucPhongCuaKS4);
+            this.flpTrangChuKhachSan.Controls.Add(this.ucPhongCuaKS1);
+            this.flpTrangChuKhachSan.Location = new System.Drawing.Point(2, 152);
+            this.flpTrangChuKhachSan.Name = "flpTrangChuKhachSan";
+            this.flpTrangChuKhachSan.Size = new System.Drawing.Size(794, 621);
+            this.flpTrangChuKhachSan.TabIndex = 1;
             // 
             // ucPhongCuaKS3
             // 
             this.ucPhongCuaKS3.BackColor = System.Drawing.Color.White;
             this.ucPhongCuaKS3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucPhongCuaKS3.Location = new System.Drawing.Point(3, 3);
+            this.ucPhongCuaKS3.Location = new System.Drawing.Point(3, 157);
             this.ucPhongCuaKS3.Name = "ucPhongCuaKS3";
             this.ucPhongCuaKS3.Size = new System.Drawing.Size(791, 148);
             this.ucPhongCuaKS3.TabIndex = 2;
@@ -154,64 +169,72 @@
             // 
             this.ucPhongCuaKS4.BackColor = System.Drawing.Color.White;
             this.ucPhongCuaKS4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucPhongCuaKS4.Location = new System.Drawing.Point(3, 157);
+            this.ucPhongCuaKS4.Location = new System.Drawing.Point(3, 311);
             this.ucPhongCuaKS4.Name = "ucPhongCuaKS4";
             this.ucPhongCuaKS4.Size = new System.Drawing.Size(791, 152);
             this.ucPhongCuaKS4.TabIndex = 3;
-            // 
-            // ucPhongCuaKS1
-            // 
-            this.ucPhongCuaKS1.BackColor = System.Drawing.Color.White;
-            this.ucPhongCuaKS1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucPhongCuaKS1.Location = new System.Drawing.Point(3, 315);
-            this.ucPhongCuaKS1.Name = "ucPhongCuaKS1";
-            this.ucPhongCuaKS1.Size = new System.Drawing.Size(791, 148);
-            this.ucPhongCuaKS1.TabIndex = 0;
             // 
             // ucPhongCuaKS2
             // 
             this.ucPhongCuaKS2.BackColor = System.Drawing.Color.White;
             this.ucPhongCuaKS2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ucPhongCuaKS2.Location = new System.Drawing.Point(3, 469);
+            this.ucPhongCuaKS2.Location = new System.Drawing.Point(3, 3);
             this.ucPhongCuaKS2.Name = "ucPhongCuaKS2";
             this.ucPhongCuaKS2.Size = new System.Drawing.Size(791, 148);
             this.ucPhongCuaKS2.TabIndex = 4;
             // 
+<<<<<<< HEAD
+=======
+            // ucPhongCuaKS1
+            // 
+            this.ucPhongCuaKS1.BackColor = System.Drawing.Color.White;
+            this.ucPhongCuaKS1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucPhongCuaKS1.Location = new System.Drawing.Point(3, 469);
+            this.ucPhongCuaKS1.Name = "ucPhongCuaKS1";
+            this.ucPhongCuaKS1.Size = new System.Drawing.Size(791, 148);
+            this.ucPhongCuaKS1.TabIndex = 5;
+            // 
+>>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
             // XemPhongCuaKhachSan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(801, 776);
+<<<<<<< HEAD
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
+=======
+            this.Controls.Add(this.pnlTienDe);
+            this.Controls.Add(this.flpTrangChuKhachSan);
+>>>>>>> 28558a8bcd27f33c2c3b8d0c60f43aed3a8eaba3
             this.Name = "XemPhongCuaKhachSan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChuKhachSan";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.pnlTienDe.ResumeLayout(false);
+            this.pnlTienDe.PerformLayout();
+            this.flpTrangChuKhachSan.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private UCPhongCuaKS ucPhongCuaKS1;
+        private System.Windows.Forms.Panel pnlTienDe;
+        private System.Windows.Forms.FlowLayoutPanel flpTrangChuKhachSan;
+        private System.Windows.Forms.Label lblPhong;
+        private System.Windows.Forms.Label lblNgayTraPhong;
+        private System.Windows.Forms.Label lblNgayNhanPhong;
+        private System.Windows.Forms.Label lblLuongKhach;
         private UCPhongCuaKS ucPhongCuaKS3;
         private UCPhongCuaKS ucPhongCuaKS4;
         private UCPhongCuaKS ucPhongCuaKS2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox cboLuongKhach;
+        private System.Windows.Forms.DateTimePicker dateTimePickerNgayTra;
+        private System.Windows.Forms.DateTimePicker dateTimePickerNgayNhan;
+        private System.Windows.Forms.Button btnTimKiem;
+        private UCPhongCuaKS ucPhongCuaKS1;
     }
 }

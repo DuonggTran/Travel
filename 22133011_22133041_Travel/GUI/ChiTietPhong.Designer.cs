@@ -35,14 +35,14 @@
             this.btnXemPhongTrong = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtDiaDiem = new System.Windows.Forms.Label();
             this.txtLoaiPhong = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLoaiPhong = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDiaDiem = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxAnh1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiaDiem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -123,27 +123,27 @@
             this.txtLoaiPhong.TabIndex = 100;
             this.txtLoaiPhong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pictureBox8
+            // pictureBoxLoaiPhong
             // 
-            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox8.Image = global::GUI.Properties.Resources._42c98447061cab42f20d;
-            this.pictureBox8.Location = new System.Drawing.Point(285, 539);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(55, 52);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 80;
-            this.pictureBox8.TabStop = false;
+            this.pictureBoxLoaiPhong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxLoaiPhong.Image = global::GUI.Properties.Resources._42c98447061cab42f20d;
+            this.pictureBoxLoaiPhong.Location = new System.Drawing.Point(285, 539);
+            this.pictureBoxLoaiPhong.Name = "pictureBoxLoaiPhong";
+            this.pictureBoxLoaiPhong.Size = new System.Drawing.Size(55, 52);
+            this.pictureBoxLoaiPhong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLoaiPhong.TabIndex = 80;
+            this.pictureBoxLoaiPhong.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBoxDiaDiem
             // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Image = global::GUI.Properties.Resources._8120a168e11b4d45140a;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 539);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(55, 52);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 77;
-            this.pictureBox5.TabStop = false;
+            this.pictureBoxDiaDiem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxDiaDiem.Image = global::GUI.Properties.Resources._8120a168e11b4d45140a;
+            this.pictureBoxDiaDiem.Location = new System.Drawing.Point(12, 539);
+            this.pictureBoxDiaDiem.Name = "pictureBoxDiaDiem";
+            this.pictureBoxDiaDiem.Size = new System.Drawing.Size(55, 52);
+            this.pictureBoxDiaDiem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDiaDiem.TabIndex = 77;
+            this.pictureBoxDiaDiem.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -196,8 +196,8 @@
             this.ClientSize = new System.Drawing.Size(863, 688);
             this.Controls.Add(this.txtLoaiPhong);
             this.Controls.Add(this.txtDiaDiem);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBoxLoaiPhong);
+            this.Controls.Add(this.pictureBoxDiaDiem);
             this.Controls.Add(this.btnXemPhongTrong);
             this.Controls.Add(this.linklbDanhGia);
             this.Controls.Add(this.txtTenKhachSan);
@@ -212,8 +212,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChiTietPhong";
             this.Load += new System.EventHandler(this.ChiTietPhong_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiaDiem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -232,8 +232,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.LinkLabel linklbDanhGia;
         private Guna.UI2.WinForms.Guna2GradientButton btnXemPhongTrong;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBoxLoaiPhong;
+        private System.Windows.Forms.PictureBox pictureBoxDiaDiem;
         private System.Windows.Forms.Label txtDiaDiem;
         private System.Windows.Forms.Label txtLoaiPhong;
     }

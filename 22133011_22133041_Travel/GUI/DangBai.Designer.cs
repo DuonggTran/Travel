@@ -39,17 +39,17 @@
             this.txtMoTa = new System.Windows.Forms.RichTextBox();
             this.btnDangBai = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtTenKhachSan = new Guna.UI2.WinForms.Guna2TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cboLoaiPhong = new System.Windows.Forms.ComboBox();
+            this.pictureBoxLoaiPhong = new System.Windows.Forms.PictureBox();
             this.cboDiaDiem = new System.Windows.Forms.ComboBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDiaDiem = new System.Windows.Forms.PictureBox();
             this.btnThemPhong = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiaDiem)).BeginInit();
             this.SuspendLayout();
             // 
             // btnThemAnh1
@@ -164,7 +164,7 @@
             this.btnDangBai.Name = "btnDangBai";
             this.btnDangBai.Size = new System.Drawing.Size(180, 45);
             this.btnDangBai.TabIndex = 69;
-            this.btnDangBai.Text = "Đăng Bài";        
+            this.btnDangBai.Text = "Đăng Bài";
             // 
             // txtTenKhachSan
             // 
@@ -191,27 +191,27 @@
             this.txtTenKhachSan.TabIndex = 77;
             this.txtTenKhachSan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // comboBox1
+            // cboLoaiPhong
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cboLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboLoaiPhong.FormattingEnabled = true;
+            this.cboLoaiPhong.Items.AddRange(new object[] {
             "Hotel",
             "Homestay"});
-            this.comboBox1.Location = new System.Drawing.Point(285, 579);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(132, 28);
-            this.comboBox1.TabIndex = 79;
+            this.cboLoaiPhong.Location = new System.Drawing.Point(285, 579);
+            this.cboLoaiPhong.Name = "cboLoaiPhong";
+            this.cboLoaiPhong.Size = new System.Drawing.Size(132, 28);
+            this.cboLoaiPhong.TabIndex = 79;
             // 
-            // pictureBox1
+            // pictureBoxLoaiPhong
             // 
-            this.pictureBox1.Image = global::GUI.Properties.Resources._42c98447061cab42f20d;
-            this.pictureBox1.Location = new System.Drawing.Point(224, 555);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 52);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 78;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxLoaiPhong.Image = global::GUI.Properties.Resources._42c98447061cab42f20d;
+            this.pictureBoxLoaiPhong.Location = new System.Drawing.Point(224, 555);
+            this.pictureBoxLoaiPhong.Name = "pictureBoxLoaiPhong";
+            this.pictureBoxLoaiPhong.Size = new System.Drawing.Size(55, 52);
+            this.pictureBoxLoaiPhong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLoaiPhong.TabIndex = 78;
+            this.pictureBoxLoaiPhong.TabStop = false;
             // 
             // cboDiaDiem
             // 
@@ -227,15 +227,15 @@
             this.cboDiaDiem.Size = new System.Drawing.Size(132, 28);
             this.cboDiaDiem.TabIndex = 70;
             // 
-            // pictureBox5
+            // pictureBoxDiaDiem
             // 
-            this.pictureBox5.Image = global::GUI.Properties.Resources._8120a168e11b4d45140a;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 555);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(55, 52);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 55;
-            this.pictureBox5.TabStop = false;
+            this.pictureBoxDiaDiem.Image = global::GUI.Properties.Resources._8120a168e11b4d45140a;
+            this.pictureBoxDiaDiem.Location = new System.Drawing.Point(12, 555);
+            this.pictureBoxDiaDiem.Name = "pictureBoxDiaDiem";
+            this.pictureBoxDiaDiem.Size = new System.Drawing.Size(55, 52);
+            this.pictureBoxDiaDiem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDiaDiem.TabIndex = 55;
+            this.pictureBoxDiaDiem.TabStop = false;
             // 
             // btnThemPhong
             // 
@@ -266,12 +266,12 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(862, 641);
             this.Controls.Add(this.btnThemPhong);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.cboLoaiPhong);
+            this.Controls.Add(this.pictureBoxLoaiPhong);
             this.Controls.Add(this.txtTenKhachSan);
             this.Controls.Add(this.cboDiaDiem);
             this.Controls.Add(this.btnDangBai);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBoxDiaDiem);
             this.Controls.Add(this.txtMoTa);
             this.Controls.Add(this.btnThemAnh4);
             this.Controls.Add(this.btnThemAnh3);
@@ -290,8 +290,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_Anh1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLoaiPhong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDiaDiem)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -309,10 +309,10 @@
         private System.Windows.Forms.RichTextBox txtMoTa;
         private Guna.UI2.WinForms.Guna2GradientButton btnDangBai;
         private Guna.UI2.WinForms.Guna2TextBox txtTenKhachSan;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox cboLoaiPhong;
+        private System.Windows.Forms.PictureBox pictureBoxLoaiPhong;
         private System.Windows.Forms.ComboBox cboDiaDiem;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBoxDiaDiem;
         private Guna.UI2.WinForms.Guna2GradientButton btnThemPhong;
     }
 }

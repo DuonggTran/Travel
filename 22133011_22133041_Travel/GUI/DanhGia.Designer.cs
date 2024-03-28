@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.btnVietDanhGia = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.lblTieuDe = new System.Windows.Forms.Label();
+            this.lblBaiDanhGia = new System.Windows.Forms.Label();
+            this.pnlTieuDe = new System.Windows.Forms.Panel();
+            this.pnlDanhGia = new System.Windows.Forms.Panel();
             this.flpDanhGia = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlTieuDe.SuspendLayout();
+            this.pnlDanhGia.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnVietDanhGia
@@ -50,44 +50,44 @@
             this.btnVietDanhGia.UseVisualStyleBackColor = true;
             this.btnVietDanhGia.Click += new System.EventHandler(this.btnVietDanhGia_Click);
             // 
-            // label1
+            // lblTieuDe
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(70, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(484, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Chúng tôi cố gắng mang đến 100% đánh giá chân thật";
+            this.lblTieuDe.AutoSize = true;
+            this.lblTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTieuDe.Location = new System.Drawing.Point(70, 14);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(484, 25);
+            this.lblTieuDe.TabIndex = 2;
+            this.lblTieuDe.Text = "Chúng tôi cố gắng mang đến 100% đánh giá chân thật";
             // 
-            // label2
+            // lblBaiDanhGia
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 25);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Bài đánh giá của khách hàng";
+            this.lblBaiDanhGia.AutoSize = true;
+            this.lblBaiDanhGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBaiDanhGia.Location = new System.Drawing.Point(3, 12);
+            this.lblBaiDanhGia.Name = "lblBaiDanhGia";
+            this.lblBaiDanhGia.Size = new System.Drawing.Size(264, 25);
+            this.lblBaiDanhGia.TabIndex = 3;
+            this.lblBaiDanhGia.Text = "Bài đánh giá của khách hàng";
             // 
-            // panel1
+            // pnlTieuDe
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.btnVietDanhGia);
-            this.panel1.Location = new System.Drawing.Point(0, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(811, 54);
-            this.panel1.TabIndex = 4;
+            this.pnlTieuDe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlTieuDe.Controls.Add(this.btnVietDanhGia);
+            this.pnlTieuDe.Location = new System.Drawing.Point(0, 1);
+            this.pnlTieuDe.Name = "pnlTieuDe";
+            this.pnlTieuDe.Size = new System.Drawing.Size(811, 54);
+            this.pnlTieuDe.TabIndex = 4;
             // 
-            // panel2
+            // pnlDanhGia
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.flpDanhGia);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(0, 54);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(811, 612);
-            this.panel2.TabIndex = 5;
+            this.pnlDanhGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDanhGia.Controls.Add(this.flpDanhGia);
+            this.pnlDanhGia.Controls.Add(this.lblBaiDanhGia);
+            this.pnlDanhGia.Location = new System.Drawing.Point(0, 54);
+            this.pnlDanhGia.Name = "pnlDanhGia";
+            this.pnlDanhGia.Size = new System.Drawing.Size(811, 612);
+            this.pnlDanhGia.TabIndex = 5;
             // 
             // flpDanhGia
             // 
@@ -102,17 +102,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(812, 665);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.lblTieuDe);
+            this.Controls.Add(this.pnlTieuDe);
+            this.Controls.Add(this.pnlDanhGia);
             this.MinimizeBox = false;
             this.Name = "DanhGia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DanhGia";
             this.Load += new System.EventHandler(this.DanhGia_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlTieuDe.ResumeLayout(false);
+            this.pnlDanhGia.ResumeLayout(false);
+            this.pnlDanhGia.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,10 +121,10 @@
         #endregion
 
         private System.Windows.Forms.Button btnVietDanhGia;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lblTieuDe;
+        private System.Windows.Forms.Label lblBaiDanhGia;
+        private System.Windows.Forms.Panel pnlTieuDe;
+        private System.Windows.Forms.Panel pnlDanhGia;
         private System.Windows.Forms.FlowLayoutPanel flpDanhGia;
     }
 }
