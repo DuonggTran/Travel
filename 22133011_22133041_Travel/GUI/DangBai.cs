@@ -66,7 +66,6 @@ namespace GUI
         {
             ThongTinKhachSan kSan = new ThongTinKhachSan(txtTenKhachSan.Text, cboDiaDiem.Text, cboLoaiPhong.Text, txtMoTa.Text, null, null, null, null);           
             kSanDAO.Them(kSan, dB);
-            
         }
     }
 }

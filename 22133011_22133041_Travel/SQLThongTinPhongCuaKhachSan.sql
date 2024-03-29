@@ -25,3 +25,16 @@ CREATE TABLE ThongTinPhongCuaKhachSan
 );
 SELECT *FROM ThongTinPhongCuaKhachSan
 DROP TABLE ThongTinPhongCuaKhachSan
+
+insert into ThongTinPhongCuaKhachSan values
+(1,'Phong Giuong Do', '10', '100000', 'bon tam', 'nha ve sinh', 'voi sen', 'do ve sinh ca nhan mien phi', 'nhin ra thanh pho', 'nhin ra bien', 'tv', 'tu lanh', 'dieu hoa', 'wifi free', 'he thong cach am', 'ban lam viec', 'duoc hut thuoc', null, null ,null);
+insert into ThongTinPhongCuaKhachSan values
+(1,'Phong Giuong Don', '20', '300000', 'bon tam', 'nha ve sinh', 'voi sen', 'do ve sinh ca nhan mien phi', 'nhin ra thanh pho', 'nhin ra bien', 'tv', 'tu lanh', 'dieu hoa', 'wifi free', 'he thong cach am', 'ban lam viec', 'duoc hut thuoc', null, null ,null);
+insert into ThongTinPhongCuaKhachSan values
+(2,'Phong Giuong Doi', '20', '500000', 'bon tam', 'nha ve sinh', 'voi sen', 'do ve sinh ca nhan mien phi', 'nhin ra thanh pho', 'nhin ra bien', 'tv', 'tu lanh', 'dieu hoa', 'wifi free', 'he thong cach am', 'ban lam viec', 'duoc hut thuoc', null, null ,null);
+insert into ThongTinPhongCuaKhachSan values
+(2,'Phong Giuong Don', '15', '200000', 'bon tam', 'nha ve sinh', 'voi sen', 'do ve sinh ca nhan mien phi', 'nhin ra thanh pho', 'nhin ra bien', 'tv', 'tu lanh', 'dieu hoa', 'wifi free', 'he thong cach am', 'ban lam viec', 'duoc hut thuoc', null, null ,null);
+insert into ThongTinPhongCuaKhachSan values
+(3,'Phong Giuong Doi', '20', '500000', 'bon tam', 'nha ve sinh', 'voi sen', 'do ve sinh ca nhan mien phi', 'nhin ra thanh pho', 'nhin ra bien', 'tv', 'tu lanh', 'dieu hoa', 'wifi free', 'he thong cach am', 'ban lam viec', 'duoc hut thuoc', null, null ,null);
+insert into ThongTinPhongCuaKhachSan values
+(3,'Phong Giuong Don', '20', '100000', 'bon tam', 'nha ve sinh', 'voi sen', 'do ve sinh ca nhan mien phi', 'nhin ra thanh pho', 'nhin ra bien', 'tv', 'tu lanh', 'dieu hoa', 'wifi free', 'he thong cach am', 'ban lam viec', 'duoc hut thuoc', null, null ,null);
